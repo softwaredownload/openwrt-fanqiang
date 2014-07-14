@@ -1,0 +1,6 @@
+# Put your custom commands here that should be executed once
+# the system init finished. By default this file does nothing.
+
+/usr/bin/initsetup
+
+exit 0

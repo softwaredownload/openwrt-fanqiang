@@ -1,0 +1,7 @@
+{
+    "server":"107.89.0.12",
+    "server_port":8345,
+    "local_port":8024,
+    "password":"killgfw",
+    "method":"aes-256-cfb"
+}
