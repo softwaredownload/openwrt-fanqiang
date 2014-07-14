@@ -11,24 +11,32 @@ OpenWrt智能、自动、透明翻墙路由器教程
 
 自由的感觉真好:　youtube, hulu, twitter, facebook, google...
 
+本教程已经在github开源，欢迎提交改进，报告bug:  
+[https://github.com/softwaredownload/openwrt-fanqiang](https://github.com/softwaredownload/openwrt-fanqiang)
+
 2014-07-14
 
 ## 相关资源
 
-[自动翻墙教程电子书下载](https://software-download.name/2014/fanqiang-jiaocheng/)
+- 自动翻墙教程电子书下载  
+[https://software-download.name/2014/fanqiang-jiaocheng/](https://software-download.name/2014/fanqiang-jiaocheng/)
 
-[教程用到的OpenWrt翻墙配置文件](https://github.com/softwaredownload/openwrt-fanqiang/openwrt)
+- 教程用到的OpenWrt翻墙配置文件:  
+[https://github.com/softwaredownload/openwrt-fanqiang/tree/master/openwrt](https://github.com/softwaredownload/openwrt-fanqiang/tree/master/openwrt) 
 
-[教程中用到的shadowsocks服务端配置文件](https://github.com/softwaredownload/openwrt-fanqiang/ubuntu)
+- 教程中用到的shadowsocks服务端配置文件:  
+[https://github.com/softwaredownload/openwrt-fanqiang/tree/master/ubuntu](https://github.com/softwaredownload/openwrt-fanqiang/tree/master/ubuntu)
 
-[包含shadowsocks-libev的openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade.bin](https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/)
+- 包含shadowsocks-libev的openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade.bin:  
+[https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/](https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/)
 
-[新编译的shadowsocks-libev-polarssl_ar71xx.ipk](https://software-download.name/2014/shadowsocks-libev-polarssl-ar71xx-ipk-latest/)
+- 新编译的shadowsocks-libev-polarssl_ar71xx.ipk:  
+[https://software-download.name/2014/shadowsocks-libev-polarssl-ar71xx-ipk-latest/](https://software-download.name/2014/shadowsocks-libev-polarssl-ar71xx-ipk-latest/)
 
-本教程已经在github开源，欢迎提交改进，报告bug:
-[https://github.com/softwaredownload/openwrt-fanqiang](https://github.com/softwaredownload/openwrt-fanqiang)
 
 ## 授权许可
 除特别声明外，本书中的内容使用[CC BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/)（创作共用 署名-相同方式共享3.0许可协议）授权，代码遵循[BSD 3-Clause License](<https://github.com/softwaredownload/openwrt-fanqiang/blob/master/LICENSE>)（3项条款的BSD许可协议）。
 
-## [在线阅读OpenWrt翻墙路由器教程](https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md)
+
+## 在线阅读OpenWrt翻墙路由器教程:
+[https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md](https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md)
