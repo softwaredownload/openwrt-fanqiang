@@ -29,7 +29,7 @@ uci set system.@system[0].timezone='CST-8'
 uci commit
 
 /etc/init.d/network restart
-#/etc/init.d/dropbear restart
+/etc/init.d/dropbear restart
 /etc/init.d/system restart
 
 sed -i s:/usr:##/usr:g /etc/rc.local
