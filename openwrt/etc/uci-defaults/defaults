@@ -7,29 +7,26 @@ uci set network.wan.proto=pppoe
 uci set network.wan.username=adslname
 uci set network.wan.password=adslpassword
 uci set network.wan.peerdns=0
+uci commit network
 
 uci set wireless.@wifi-device[0].channel=11
 uci set wireless.@wifi-device[0].txpower=17
 uci set wireless.@wifi-device[0].disabled=0
 uci set wireless.@wifi-device[0].country=CN
 uci set wireless.@wifi-iface[0].mode=ap
-uci set wireless.@wifi-iface[0].ssid='eastking'
+uci set wireless.@wifi-iface[0].ssid='eastking-wr2543'
 uci set wireless.@wifi-iface[0].encryption=psk2
 uci set wireless.@wifi-iface[0].key='wsjdw,8181'
-
-#uci set dropbear.@dropbear[0].Port=24
-#uci set dropbear.@dropbear[0].PasswordAuth=off
-#uci set dropbear.@dropbear[0].RootPasswordAuth=off
+uci commit wireless
+wifi
 
 uci set dropbear.@dropbear[0].GatewayPorts=on
+uci commit dropbear
 
 uci set system.@system[0].zonename='Asia/Shanghai'
 uci set system.@system[0].timezone='CST-8'
+uci commit system 
 
-uci commit
-
-/etc/init.d/network restart
 /etc/init.d/dropbear restart
 /etc/init.d/system restart
-
-sed -i s:/usr:##/usr:g /etc/rc.local
+/etc/init.d/network restart

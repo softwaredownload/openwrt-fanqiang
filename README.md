@@ -11,27 +11,29 @@ OpenWrt智能、自动、透明翻墙路由器教程
 
 自由的感觉真好:　youtube, hulu, twitter, facebook, google...
 
-本教程已经在github开源，欢迎提交改进，报告bug:  
+知识若不分享，实在没有意义。
+
+什么是圣人，圣人就是得到和付出比较均衡的人。父母育我，我亦养父母；网上获得知识，也要在网上分享知识。于是，花了许多天，查资料，写教程，调试固件，不知不觉一天就过去了。
+
+希望你应用本教程后，也把你的过程写下来，合并到这个项目中来:  
 [https://github.com/softwaredownload/openwrt-fanqiang](https://github.com/softwaredownload/openwrt-fanqiang)
 
 2014-07-14
 
 ## 相关资源
 
-- 自动翻墙教程电子书下载  
+- OpenWrt自动翻墙教程电子书下载  
 [https://software-download.name/2014/fanqiang-jiaocheng/](https://software-download.name/2014/fanqiang-jiaocheng/)
 
-- 教程用到的OpenWrt翻墙配置文件:  
-[https://github.com/softwaredownload/openwrt-fanqiang/tree/master/openwrt](https://github.com/softwaredownload/openwrt-fanqiang/tree/master/openwrt) 
-
-- 教程中用到的shadowsocks服务端配置文件:  
-[https://github.com/softwaredownload/openwrt-fanqiang/tree/master/ubuntu](https://github.com/softwaredownload/openwrt-fanqiang/tree/master/ubuntu)
-
-- 包含shadowsocks-libev的openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade.bin:  
+- TP-Link TLWR2543 预编译翻墙固件:  
 [https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/](https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/)
 
-- 新编译的shadowsocks-libev-polarssl_ar71xx.ipk:  
+- D-Link DIR-505 预编译翻墙固件:  
+[https://software-download.name/2014/dlink-dir-505-openwrt-fanqiang/](https://software-download.name/2014/dlink-dir-505-openwrt-fanqiang/)
+
+- shadowsocks-libev-polarssl_ar71xx.ipk (版本2014-08-18):  
 [https://software-download.name/2014/shadowsocks-libev-polarssl-ar71xx-ipk-latest/](https://software-download.name/2014/shadowsocks-libev-polarssl-ar71xx-ipk-latest/)
+
 
 
 ## 授权许可
@@ -39,4 +41,5 @@ OpenWrt智能、自动、透明翻墙路由器教程
 
 
 ## 在线阅读OpenWrt翻墙路由器教程:
-[https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md](https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md)
+* [https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md](https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md)
+* [http://softwaredownload.gitbooks.io/openwrt-fanqiang/](http://softwaredownload.gitbooks.io/openwrt-fanqiang/)
