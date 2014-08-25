@@ -13,7 +13,7 @@ OpenWrt智能、自动、透明翻墙路由器教程
 
 自由的感觉真好:　youtube, hulu, twitter, facebook, google...
 
-什么是圣人，圣人就是得到和付出比较均衡的人。父母育我，我亦养父母；网上获得知识，也要在网上分享知识。于是，花了许多天，查资料，写教程，调试固件，不知不觉一天就过去了。
+什么是圣人，圣人就是得到和付出比较均衡的人。天地生我，我获天地；父母育我，我亦养父母；网上获得知识，也要在网上分享知识。于是，花了许多天，查资料，写教程，调试固件，不知不觉一天就过去了。
 
 希望你应用本教程后，也把你的过程写下来，合并到这个项目中来:  
 [https://github.com/softwaredownload/openwrt-fanqiang](https://github.com/softwaredownload/openwrt-fanqiang)
