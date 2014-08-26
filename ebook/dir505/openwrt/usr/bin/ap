@@ -8,7 +8,7 @@ cp /etc/config/backup/* /etc/config/
 
 uci set network.lan.gateway=192.168.1.1
 uci set network.lan.dns=192.168.1.1
-uci set network.lan.ipaddr=192.168.1.90
+uci set network.lan.ipaddr=192.168.1.234
 
 uci commit network
 
