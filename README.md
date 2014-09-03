@@ -25,13 +25,13 @@ OpenWrt智能、自动、透明翻墙路由器教程
 - OpenWrt自动翻墙教程电子书下载  
 [https://software-download.name/2014/fanqiang-jiaocheng/](https://software-download.name/2014/fanqiang-jiaocheng/)
 
-- TP-Link TLWR2543 预编译翻墙固件:  
+- TP-Link TLWR2543 预编译翻墙固件(2014-09-01):  
 [https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/](https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/)
 
-- D-Link DIR-505 预编译翻墙固件:  
+- D-Link DIR-505 预编译翻墙固件(2014-09-01):  
 [https://software-download.name/2014/dlink-dir-505-openwrt-fanqiang/](https://software-download.name/2014/dlink-dir-505-openwrt-fanqiang/)
 
-- shadowsocks-libev-polarssl_ar71xx.ipk (版本2014-08-18):  
+- shadowsocks-libev-polarssl_ar71xx.ipk (2014-08-18):  
 [https://software-download.name/2014/shadowsocks-libev-polarssl-ar71xx-ipk-latest/](https://software-download.name/2014/shadowsocks-libev-polarssl-ar71xx-ipk-latest/)
 
 
