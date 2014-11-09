@@ -35,7 +35,7 @@ OpenWrt智能、自动、透明翻墙路由器教程
 [https://software-download.name/2014/shadowsocks-libev-polarssl-ar71xx-ipk-latest/](https://software-download.name/2014/shadowsocks-libev-polarssl-ar71xx-ipk-latest/)
 
 
-# 注意事项（2014-09-24）
+## 关于预編译固件（2014-09-24）
 
 目前的预编译固件是启用了计划任务的，这会有潜在的不确定性，如果更新时下载的文件存在错误，导致dnsmasq无法读取，可能造成dnsmasq无法启动，翻墙功能自然失效。
 
@@ -43,7 +43,7 @@ OpenWrt智能、自动、透明翻墙路由器教程
 
 第一次刷预编译固件后，建议立即禁用自动更新 dnsmasq.d目录下的文件，运行稳定一段时间后，需要时再加上计划任务。
 
-下次发布固件时，将默认不启计划任务。
+下次发布固件时，将默认不启用计划任务。
 
 
 
