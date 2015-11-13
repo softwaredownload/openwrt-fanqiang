@@ -25,6 +25,7 @@
 	* [编译shadowsocks-libev for OpenWrt ipk安装包](ebook/04.1.md)
 	* [下载和设置翻墙配置文件](ebook/04.2.md)
 	* [使用Image Builder编译自动翻墙OpenWrt固件](ebook/04.3.md)
+	* [NETGEAR WNDR4300]完全使用128M内存 (ebook/04.5.md)
 	* [如何使用别人预编译的OpenWrt翻墙固件](ebook/04.4.md)
 * [应用：D-Link DIR-505刷OpenWrt翻墙教程](ebook/dir505/0.dlink-dir505-fanqiang.md)
 	* [如何进入 DIR-505 恢复模式](ebook/dir505/1.connect-dir505-openwrt.md)
