@@ -26,7 +26,11 @@
 	* [下载和设置翻墙配置文件](ebook/04.2.md)
 	* [使用Image Builder编译自动翻墙OpenWrt固件](ebook/04.3.md)
 	* [如何使用别人预编译的OpenWrt翻墙固件](ebook/04.4.md)
-* [应用 : NETGEAR WNDR4300完全使用128M内存](ebook/WNDR4300/01.1.MD)
+* [应用 : NETGEAR WNDR4300刷OpenWrt翻墙教程]
+* 	*[NETGEAR WNDR4300刷回原厂设置的方法](ebook/WNDR4300/01.04.MD)
+*	*[NETGEAR WNDR4300完全使用128M内存](ebook/WNDR4300/01.1.MD) 
+*	*[NETGEAR WNDR4300 WNDR4300 编译固件的方法](ebook/WNDR4300/01.2.MD) 
+*	*[NETGEAR WNDR4300 WNDR4300 刷机](ebook/WNDR4300/01.3.MD) 	
 * [应用：D-Link DIR-505刷OpenWrt翻墙教程](ebook/dir505/0.dlink-dir505-fanqiang.md)
 * 	* [如何进入 DIR-505 恢复模式](ebook/dir505/1.connect-dir505-openwrt.md)
 	* [DIR-505刷OpenWrt固件过程](ebook/dir505/2.dir505-install-openwrt.md)
