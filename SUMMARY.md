@@ -15,6 +15,7 @@
 	* [命令行 OpenWrt sysupgrade 更新固件](ebook/02.8.md)
 	* [命令行 uci设置 OpenWrt 上网参数](ebook/02.9.md)
 * [OpenWrt＋shadowsocks-libev自动翻墙](ebook/03.0.md)
+	* [在未装好代理前让使路由自己能被代理](ebook/03.7.md)
 	* [什么是shadowsocks-libev翻墙软件](ebook/03.1.md)
 	* [翻墙软件Shadowsocks-libev服务端设置](ebook/03.2.md)
 	* [OpenWrt路由器运行shadowsocks-libev客户端](ebook/03.3.md)
