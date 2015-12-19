@@ -8,13 +8,19 @@ SERVICE_WRITE_PID=1
 SERVICE_DAEMONIZE=1
 
 start() {
-    service_start /usr/bin/ss-redir -c /etc/shadowsocks.json
-    service_start /usr/bin/ss-tunnel -c /etc/shadowsocks.json -l 7913 -L 8.8.8.8:53 -u 
-    /usr/bin/shadowsocks-firewall
+	echo "conf-dir=/etc/dnsmasq.d" >> /etc/dnsmasq.conf
+	/etc/init.d/dnsmasq restart
+
+	service_start /usr/bin/ss-redir -c /etc/shadowsocks.json
+	service_start /usr/bin/ss-tunnel -c /etc/shadowsocks.json -l 7913 -L 8.8.8.8:53 -u 
+	/usr/bin/shadowsocks-firewall
 }
 
 stop() {
-    service_stop /usr/bin/ss-redir
-    service_stop /usr/bin/ss-tunnel
-    /etc/init.d/firewall restart
+	sed -i '/conf-dir=\/etc\/dnsmasq.d/d' /etc/dnsmasq.conf
+	/etc/init.d/dnsmasq restart
+
+	service_stop /usr/bin/ss-redir
+	service_stop /usr/bin/ss-tunnel
+	/etc/init.d/firewall restart
 }
