@@ -61,7 +61,7 @@ OpenWrt智能、自动、透明翻墙路由器教程
 [https://software-download.name/2014/fanqiang-jiaocheng/](https://software-download.name/2014/fanqiang-jiaocheng/)
 
 
-- shadowsocks-libev-polarssl_1.4.6.ar71xx.ipk (2014-08-18):  
+- shadowsocks-libev-polarssl_2.4.3.ar71xx.ipk (2015-12-20):  
 [https://software-download.name/2014/shadowsocks-libev-polarssl-ar71xx-ipk-latest/](https://software-download.name/2014/shadowsocks-libev-polarssl-ar71xx-ipk-latest/)
 
 
