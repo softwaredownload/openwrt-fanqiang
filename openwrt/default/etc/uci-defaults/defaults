@@ -1,0 +1,37 @@
+#!/bin/sh
+
+# Author: https://github.com/softwaredownload/openwrt-fanqiang
+# Date: 2014-07-12
+
+uci set network.wan.proto='pppoe'
+uci set network.wan.username='wan-username'
+uci set network.wan.password='wan-password'
+uci set network.wan.peerdns=0
+uci commit network
+
+uci set wireless.@wifi-device[0].channel=11
+uci set wireless.@wifi-device[0].txpower=17
+uci set wireless.@wifi-device[0].disabled=0
+uci set wireless.@wifi-device[0].country='CN'
+uci set wireless.@wifi-iface[0].mode='ap'
+uci set wireless.@wifi-iface[0].ssid='eastking'
+uci set wireless.@wifi-iface[0].encryption='psk2'
+uci set wireless.@wifi-iface[0].key='icanfly9876'
+uci commit wireless
+wifi
+
+uci set dropbear.@dropbear[0].GatewayPorts='on'
+uci commit dropbear
+
+uci set system.@system[0].zonename='Asia/Shanghai'
+uci set system.@system[0].timezone='CST-8'
+uci commit system 
+
+/etc/init.d/dnsmasq enable
+/etc/init.d/dnsmasq restart
+/etc/init.d/shadowsocks enable
+/etc/init.d/shadowsocks restart
+
+/etc/init.d/dropbear restart
+/etc/init.d/system restart
+/etc/init.d/network restart

@@ -24,7 +24,7 @@ uci set wireless.@wifi-device[0].country='CN'
 uci set wireless.@wifi-iface[0].mode='ap'
 uci set wireless.@wifi-iface[0].ssid='eastking-dir505'
 uci set wireless.@wifi-iface[0].encryption='psk2'
-uci set wireless.@wifi-iface[0].key='killgfw'
+uci set wireless.@wifi-iface[0].key='icanfly9876'
 
 uci commit wireless
 wifi

@@ -15,8 +15,8 @@ uci commit network
 uci set network.wan.ifname='eth1'
 uci set network.wan.peerdns=0
 uci set network.wan.proto='pppoe'
-uci set network.wan.username='adslname'
-uci set network.wan.password='adslpassword'
+uci set network.wan.username='wan-username'
+uci set network.wan.password='wan-password'
 uci set network.wan.peerdns=0
 
 uci commit network
@@ -32,7 +32,7 @@ uci set wireless.@wifi-device[0].country='CN'
 uci set wireless.@wifi-iface[0].mode='ap'
 uci set wireless.@wifi-iface[0].ssid='eastking-dir505'
 uci set wireless.@wifi-iface[0].encryption='psk2'
-uci set wireless.@wifi-iface[0].key='killgfw'
+uci set wireless.@wifi-iface[0].key='icanfly9876'
 
 uci commit wireless
 wifi

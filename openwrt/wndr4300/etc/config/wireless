@@ -1,0 +1,41 @@
+
+config wifi-device 'radio0'
+	option type 'mac80211'
+	option hwmode '11g'
+	option path 'platform/ar934x_wmac'
+	option disabled '0'
+	option noscan '1'
+	option txpower '30'
+	option channel '3'
+	option htmode 'HT40+'
+	option country 'US'
+
+config wifi-iface
+	option device 'radio0'
+	option network 'lan'
+	option mode 'ap'
+	option encryption 'psk2'
+	option wpa_group_rekey '0'
+	option wpa_pair_rekey '0'
+	option wpa_master_rekey '0'
+	option ssid 'wndr4300-2.4G'
+	option key 'icanfly9876'
+	option hidden '0'
+
+config wifi-device 'radio1'
+	option type 'mac80211'
+	option hwmode '11a'
+	option path 'pci0000:00/0000:00:00.0'
+	option htmode 'HT20'
+	option disabled '0'
+	option country 'CN'
+	option channel '165'
+
+config wifi-iface
+	option device 'radio1'
+	option network 'lan'
+	option mode 'ap'
+	option encryption 'psk2'
+	option ssid 'wndr4300-5G'
+	option key 'icanfly9876'
+

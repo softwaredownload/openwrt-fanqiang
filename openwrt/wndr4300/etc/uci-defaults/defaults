@@ -1,0 +1,111 @@
+#!/bin/sh
+
+﻿# Author: https://github.com/softwaredownload/openwrt-fanqiang
+# Date: 2015-12-19
+
+
+#一般只修改 带注释并以　11　结尾的行就可以了。
+
+
+#ppoe
+echo "**** 开始设置网络设置****"
+uci set network.wan.proto=pppoe
+uci set network.wan.username='wan-username'  #设置ppoe帐号 11
+uci set network.wan.password='wan-password'           #设置ppoe密码 11
+uci set network.wan.peerdns='0'
+#uci set network.wan.dns='114.114.114.114 223.5.5.5 114.114.115.115 223.6.6.6'
+uci commit network
+ifup wan
+
+echo "**** 网络设置成功****"
+
+
+#wifi
+uci set wireless.radio0.channel=auto
+uci set wireless.@wifi-iface[0].ssid='WNDR4300-2.4G' #设置2.4G无线的ssid 11
+uci set wireless.@wifi-iface[1].ssid='WNDR4300-5G' #设置5G无线的ssid
+uci set wireless.@wifi-iface[0].key='icanfly9876' #设置无线密码 11
+uci set wireless.@wifi-iface[1].key='icanfly9876'  #设置5G无线密码 11
+
+uci set wireless.@wifi-device[0].country='CN'
+uci set wireless.@wifi-device[0].disabled=0
+uci set wireless.@wifi-iface[0].network='lan'
+uci set wireless.@wifi-iface[0].mode='ap'
+
+uci set wireless.@wifi-iface[0].encryption='psk2'
+uci set wireless.@wifi-iface[0].hidden=0
+
+uci set wireless.@wifi-device[1].country='CN'
+uci set wireless.@wifi-device[1].disabled=0
+uci set wireless.@wifi-device[1].channel=165
+uci set wireless.@wifi-iface[1].network='lan'
+uci set wireless.@wifi-iface[1].mode='ap'
+uci set wireless.@wifi-iface[1].encryption='psk2'
+uci commit wireless >/dev/null
+
+echo "**** 无线设置成功****"
+
+
+#ss
+#uci set shadowsocks.@shadowsocks[-1].enable='1'
+#uci set shadowsocks.@shadowsocks[-1].use_conf_file='0'
+#uci set shadowsocks.@shadowsocks[-1].server='1.0.9.8'  #设置ss服务器ip地址  11
+#uci set shadowsocks.@shadowsocks[-1].server_port='1098'   #设置服务器端口 11
+#uci set shadowsocks.@shadowsocks[-1].password='killgfw'      #设置ss密码  11
+#uci set shadowsocks.@shadowsocks[-1].encrypt_method='aes-256-cfb'  #设置加密方式 11
+#uci set shadowsocks.@shadowsocks[-1].ignore_list='/etc/chinadns_chnroute.txt'
+#uci set shadowsocks.@shadowsocks[-1].udp_relay='1'
+#uci set shadowsocks.@shadowsocks[-1].tunnel_enable='1' # 11
+#uci set shadowsocks.@shadowsocks[-1].tunnel_port='3210'
+#uci set shadowsocks.@shadowsocks[-1].tunnel_forward='8.8.8.8:53'
+#uci commit shadowsocks
+
+
+#system
+uci set system.@system[0].hostname='eastking' #设置主机名
+uci set system.@system[0].timezone=CST-8
+uci set system.@system[0].zonename='Asia/Shanghai'
+uci commit system >/dev/null
+
+
+#change root password
+echo -e "fanqiang\nfanqiang" | (passwd $USER)  #修改路由器的管理员root对应的密码 11
+
+
+# 设置ip地址
+# uci set network.lan.proto=static
+# uci set network.lan.ipaddr='192.168.1.1'
+# uci set network.lan.netmask='255.255.255.0'
+# uci set network.lan.gateway=''
+# uci set network.lan.dns='114.114.114.114'
+
+## Commit Changes
+#uci commit
+
+
+#增强无线信号
+uci set wireless.@wifi-device[0].txpower='30'
+uci set wireless.@wifi-device[0].channel=3
+uci set wireless.@wifi-device[0].htmode='HT40+'
+uci set wireless.@wifi-device[0].country='US'
+uci set wireless.@wifi-device[0].hwmode='11g'
+uci set wireless.@wifi-device[0].noscan=1
+uci commit >> /dev/null 2>&1
+
+#echo "****增强无线信号设置完毕，稍后可手工重启路由器****"
+
+
+uci set dropbear.@dropbear[0].GatewayPorts='on'
+uci commit dropbear
+
+opkg remove dnsmasq
+
+/etc/init.d/dnsmasq enable
+/etc/init.d/shadowsocks enable
+
+
+/etc/init.d/dropbear restart
+/etc/init.d/system restart
+/etc/init.d/network restart
+
+#reboot
