@@ -8,7 +8,7 @@ SERVICE_WRITE_PID=1
 SERVICE_DAEMONIZE=1
 
 start() {
-	echo "conf-dir=/etc/dnsmasq.d" >> /etc/dnsmasq.conf
+	sed -i 's/^#conf-dir=\/etc\/dnsmasq.d/conf-dir=\/etc\/dnsmasq.d/' /etc/dnsmasq.conf
 	/etc/init.d/dnsmasq restart
 
 	service_start /usr/bin/ss-redir -b 0.0.0.0 -c /etc/shadowsocks.json -f /var/run/shadowsocks.pid
@@ -17,7 +17,7 @@ start() {
 }
 
 stop() {
-	sed -i '/conf-dir=\/etc\/dnsmasq.d/d' /etc/dnsmasq.conf
+	sed -i 's/^conf-dir=\/etc\/dnsmasq.d/#conf-dir=\/etc\/dnsmasq.d/' /etc/dnsmasq.conf
 	/etc/init.d/dnsmasq restart
 
 	service_stop /usr/bin/ss-redir
