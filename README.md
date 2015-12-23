@@ -48,7 +48,7 @@ OpenWrt智能、自动、透明翻墙路由器教程
 		
 ## 相关资源
 
-- Netgear WNDR4300 预编译翻墙固件(2015-12-22):  
+- Netgear WNDR4300 预编译翻墙固件(2015-12-23):  
 [https://software-download.name/2015/netgear-wndr4300-openwrt-fanqiang-gujian/](https://software-download.name/2015/netgear-wndr4300-openwrt-fanqiang-gujian/)
 
 - TP-Link TLWR2543 预编译翻墙固件(2014-09-01):  
