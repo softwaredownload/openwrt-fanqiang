@@ -42,8 +42,8 @@ OpenWrt智能、自动、透明翻墙路由器教程
 	shadowsocks tunnel_port:	3210
 	shadowsocks password:		killgfw
 	shadowsocks method:			aes-256-cfb
-	预编译固件默认登陆密码:			fanqiang
-	WIFI预设密码:					icanfly9876　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+	root login password:		fanqiang
+	WIFI password:				icanfly9876　　(for DIR-505, TLWR2543: wsjdw,8181)　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
 	　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
 		
 ## 相关资源
