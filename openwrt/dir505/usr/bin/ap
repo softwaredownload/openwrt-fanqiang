@@ -12,10 +12,8 @@ uci set network.lan.ipaddr=192.168.1.234
 
 uci commit network
 
-
 uci set dhcp.lan.ignore=1
 uci commit dhcp
-
 
 uci set wireless.@wifi-device[0].channel=11
 uci set wireless.@wifi-device[0].txpower=15
@@ -26,8 +24,11 @@ uci set wireless.@wifi-iface[0].ssid='eastking-dir505'
 uci set wireless.@wifi-iface[0].encryption='psk2'
 uci set wireless.@wifi-iface[0].key='icanfly9876'
 
+#uci set wireless.@wifi-iface[0].macfilter='allow'                                    
+#uci add_list wireless.@wifi-iface[0].maclist=''
+
 uci commit wireless
-wifi
+#wifi
 
 
 /etc/init.d/network restart

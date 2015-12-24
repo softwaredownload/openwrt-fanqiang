@@ -35,7 +35,7 @@ OpenWrt智能、自动、透明翻墙路由器教程
 	- openwrt-wndr4300/etc/uci-defaults/defaults
 - 编译自定义固件，设置FILES=~/Downloads/openwrt-wndr4300
 	
-## 本项目规定的默认值（2015年以前发布的固件可能某些值不同）
+## 本项目规定的默认值
 	shadowsocks server:			1.0.9.8
 	shadowsocks server_port:	1098
 	shadowsocks local_port:		7654
@@ -43,7 +43,7 @@ OpenWrt智能、自动、透明翻墙路由器教程
 	shadowsocks password:		killgfw
 	shadowsocks method:			aes-256-cfb
 	root login password:		fanqiang
-	WIFI password:				icanfly9876　　(for DIR-505, TLWR2543: wsjdw,8181)　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+	WIFI password:				icanfly9876　　(for DIR-505 before 2015 and TLWR2543: wsjdw,8181)　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
 	　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
 		
 ## 相关资源
@@ -51,11 +51,11 @@ OpenWrt智能、自动、透明翻墙路由器教程
 - Netgear WNDR4300 预编译翻墙固件(2015-12-23):  
 [https://software-download.name/2015/netgear-wndr4300-openwrt-fanqiang-gujian/](https://software-download.name/2015/netgear-wndr4300-openwrt-fanqiang-gujian/)
 
+- D-Link DIR-505 预编译翻墙固件(2015-12-24):  
+[https://software-download.name/2014/dlink-dir-505-openwrt-fanqiang/](https://software-download.name/2014/dlink-dir-505-openwrt-fanqiang/)
+
 - TP-Link TLWR2543 预编译翻墙固件(2014-09-01):  
 [https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/](https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/)
-
-- D-Link DIR-505 预编译翻墙固件(2014-09-01):  
-[https://software-download.name/2014/dlink-dir-505-openwrt-fanqiang/](https://software-download.name/2014/dlink-dir-505-openwrt-fanqiang/)
 
 - OpenWrt自动翻墙教程电子书下载  
 [https://software-download.name/2014/fanqiang-jiaocheng/](https://software-download.name/2014/fanqiang-jiaocheng/)

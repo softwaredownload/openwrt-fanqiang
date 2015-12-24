@@ -27,6 +27,10 @@ uci set system.@system[0].zonename='Asia/Shanghai'
 uci set system.@system[0].timezone='CST-8'
 uci commit system 
 
+#change root password
+echo -e "fanqiang\nfanqiang" | (passwd $USER)  #修改路由器的管理员root对应的密码 11
+
+
 /etc/init.d/dnsmasq enable
 /etc/init.d/dnsmasq restart
 /etc/init.d/shadowsocks enable
