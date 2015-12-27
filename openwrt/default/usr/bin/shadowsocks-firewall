@@ -11,6 +11,7 @@ iptables -t nat -N SHADOWSOCKS_WHITELIST
 # It's very IMPORTANT, just be careful.
 
 iptables -t nat -A SHADOWSOCKS -d 1.0.9.8 -j RETURN
+#iptables -t nat -A SHADOWSOCKS -d 1.0.9.7 -j RETURN
 
 #for hulu.com
 iptables -t nat -A SHADOWSOCKS -p tcp --dport 1935 -j REDIRECT --to-ports 7654
