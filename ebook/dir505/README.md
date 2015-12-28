@@ -32,5 +32,7 @@
 我是2014年8月从淘宝 D-Link官方旗舰店买的 D-Link DIR 505 A1，69元, 固件版本号：1.03CN。买了后，看了下手机淘宝，只要59元。准备再入一个，都刷上OpenWrt，方便随时随地无障碍上网。
 
 ### 最简单的路由器刷OpenWrt固件翻墙教程:
-
 [https://github.com/softwaredownload/openwrt-fanqiang](https://github.com/softwaredownload/openwrt-fanqiang "最简单的路由器刷OpenWrt固件翻墙教程")
+
+### 在线阅读OpenWrt翻墙路由器教程:
+[http://openwrtfanqiang.software-download.name](http://openwrtfanqiang.software-download.name)

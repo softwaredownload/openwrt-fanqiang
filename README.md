@@ -71,5 +71,6 @@ OpenWrt智能、自动、透明翻墙路由器教程
 
 
 ## 在线阅读OpenWrt翻墙路由器教程:
+* [http://openwrtfanqiang.software-download.name](http://openwrtfanqiang.software-download.name)
 * [https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md](https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md)
-* [https://softwaredownload.gitbooks.io/openwrt-fanqiang/content/](https://softwaredownload.gitbooks.io/openwrt-fanqiang/content/)
+
