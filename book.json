@@ -1,0 +1,8 @@
+{ 
+	"language": "cn",
+    "pdf": {
+        "headerTemplate": "知识若不分享，实在没有意义",
+        "footerTemplate": "Page _PAGENUM_,  Author：<a href=https://github.com/softwaredownload/openwrt-fanqiang>https://github.com/softwaredownload/openwrt-fanqiang</a>"
+    }	
+
+}
