@@ -23,6 +23,7 @@
 	* [配置OpenWrt路由器智能自动翻墙](ebook/03.5.md)
 	* [OpenWrt自动更新设置和屏蔽广告](ebook/03.6.md)
 	* [OpenWrt路由器翻墙为什么会失败](ebook/03.7.md)
+	* [Shodowsocks不同加密方式速度区别](ebook/03.8.md)	
 * [OpenWrt编译翻墙固件教程](ebook/04.0.md)
 	* [编译shadowsocks-libev for OpenWrt ipk安装包](ebook/04.1.md)
 	* [下载和设置翻墙配置文件](ebook/04.2.md)
