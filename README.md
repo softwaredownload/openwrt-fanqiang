@@ -1,4 +1,4 @@
-史上最详细的OpenWrt路由器自动翻墙教程
+史上最详细的OpenWrt shadowsocks路由器自动翻墙教程
 ================
 
 手把手教你路由器刷OpenWrt固件，自动穿越万里长城。
@@ -31,7 +31,7 @@
 [https://github.com/softwaredownload/openwrt-fanqiang](https://github.com/softwaredownload/openwrt-fanqiang)
 
 
-## 如何编译OpenWrt自动翻墙固件
+## 如何编译OpenWrt shadowsocks自动翻墙固件
 
 - 首先把本项目clone到本地目录，如 ~/Downloads/openwrt-fanqiang
 - 原始配置文件
