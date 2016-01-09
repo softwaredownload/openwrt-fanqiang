@@ -10,7 +10,7 @@ HOSTS=/etc/dnsmasq.d/blockad.conf
 rm ${TMP_HOSTS} 2> /dev/null
 
 for URL in \
-    "https://github.com/vokins/simpleu/raw/61b6c327fe983a0ca11cffc0cb678c6618c4d8f3/data/mobile.txt" \
+    "https://raw.githubusercontent.com/vokins/simpleu/master/hosts" \
     "http://adaway.org/hosts.txt" \
     "http://www.malwaredomainlist.com/hostslist/hosts.txt" \
     "http://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext"	
@@ -24,7 +24,7 @@ do
     # replace double+ spaces with single spaces
     # remove carriage returns
     # append the results to TMP_HOSTS
-    wget -4 --no-check-certificate -qO- "${URL}" | grep -v -e "^#" -e "^\s*$" -e "\blocalhost\b" -e "^;" -e "^@" -e "^f" -e "^:" | sed -E -e "s/^127.0.0.1 */server=\/./" -e "s/^[0-9]\+.*$//" \
+    wget -4 --no-check-certificate -qO- "${URL}" | grep -v -e "^#" -e "^\s*$" -e "localhost" -e "^;" -e "^@"  -e "^:" -e "^[a-zA-Z]" | sed -E -e "s/^127.0.0.1 */server=\/./" -e "s/^[0-9]\+.*$//" \
 -e "s/#.*$//" -e "s/\t/ /" -e "s/[[:space:]]{2,}/ /" -e "s/ *$/\/127.0.0.0/"  | tr -d "\r" >> ${TMP_HOSTS}
 
 
