@@ -1,0 +1,36 @@
+#!/bin/sh
+
+# Author:	https://github.com/softwaredownload/openwrt-fanqiang
+# Date:		2016-01-09
+
+TMP_HOSTS=/tmp/block.hosts.unsorted
+HOSTS=/etc/dnsmasq.d/blockad.conf
+
+# remove any old TMP_HOSTS that might have stuck around
+rm ${TMP_HOSTS} 2> /dev/null
+
+for URL in \
+    "https://github.com/vokins/simpleu/raw/61b6c327fe983a0ca11cffc0cb678c6618c4d8f3/data/mobile.txt" \
+    "http://adaway.org/hosts.txt" \
+    "http://www.malwaredomainlist.com/hostslist/hosts.txt" \
+    "http://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext"	
+do
+    # grab a hosts file and...
+    # filter out comment lines
+    # filter out empty lines
+    # filter out localhost entries (the router is handling localhost)
+    # remove trailing comments
+    # replace tabs with spaces
+    # replace double+ spaces with single spaces
+    # remove carriage returns
+    # append the results to TMP_HOSTS
+    wget -4 --no-check-certificate -qO- "${URL}" | grep -v -e "^#" -e "^\s*$" -e "\blocalhost\b" -e "^;" -e "^@" -e "^f" -e "^:" | sed -E -e "s/^127.0.0.1 */server=\/./" -e "s/^[0-9]\+.*$//" \
+-e "s/#.*$//" -e "s/\t/ /" -e "s/[[:space:]]{2,}/ /" -e "s/ *$/\/127.0.0.0/"  | tr -d "\r" >> ${TMP_HOSTS}
+
+
+done
+
+# remove duplicate hosts and save the real hosts file
+sort ${TMP_HOSTS} | uniq > ${HOSTS}
+
+rm ${TMP_HOSTS} 2> /dev/null
