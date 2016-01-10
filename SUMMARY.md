@@ -45,6 +45,8 @@
 	* [DIR-505 编译OpenWrt全自动翻墙固件](ebook/dir505/6.dir505-build-image.md)
 	* [DIR-505 刷预编译OpenWrt翻墙固件](ebook/dir505/7.dir505-flash-fanqiang-image.md)
 	* [登陆并设置 DIR-505 OpenWrt 翻墙固件](ebook/dir505/8.login-setup-dir505-fanqiang.md)
+* [其他翻墙软件使用教程](ebook/05.0.md)
+	* [利用lantern 蓝灯实现浏览器自动翻墙](ebook/05.1.md)
 * [附录](ebook/09.0.md)	
 	* [翻墙软件、教程汇总](ebook/09.1.md)
 	* [本机阅读本教程的方法](ebook/09.2.md)
