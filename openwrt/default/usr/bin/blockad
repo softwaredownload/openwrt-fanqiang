@@ -12,8 +12,7 @@ rm ${TMP_HOSTS} 2> /dev/null
 for URL in \
     "https://raw.githubusercontent.com/vokins/simpleu/master/hosts" \
     "http://adaway.org/hosts.txt" \
-    "http://www.malwaredomainlist.com/hostslist/hosts.txt" \
-    "http://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext"	
+    "http://www.malwaredomainlist.com/hostslist/hosts.txt"	
 do
     # filter out comment lines, empty lines, localhost... 
     # remove trailing comments, space( ,tab), empty line
