@@ -1,4 +1,4 @@
-# D-Link DIR-505路由器刷OpenWrt固件翻墙教程
+﻿# D-Link DIR-505路由器刷OpenWrt固件翻墙教程
 
 前面的教程用结合 TP-LINK TL-WR2543N 来讲解翻墙原理与方法，并不是我特别推荐TP-LINK TL-WR2543N，而是因为手头正好有这个路由器。毫无疑问，初学者使用教程同款路由器比较容易上手。但此型号趋向退市，价格也不便宜，网上有二手货，如果功能正常倒也可以考虑。
 
@@ -37,4 +37,4 @@
 [https://github.com/softwaredownload/openwrt-fanqiang](https://github.com/softwaredownload/openwrt-fanqiang "最简单的路由器刷OpenWrt固件翻墙教程")
 
 #### 在线阅读OpenWrt翻墙路由器教程:
-[http://openwrtfanqiang.software-download.name](http://openwrtfanqiang.software-download.name)
+[https://www.gitbook.com/book/softwaredownload/openwrt-fanqiang/details](https://www.gitbook.com/book/softwaredownload/openwrt-fanqiang/details)
