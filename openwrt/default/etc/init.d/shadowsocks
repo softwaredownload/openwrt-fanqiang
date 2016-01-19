@@ -24,5 +24,7 @@ stop() {
 
 	service_stop /usr/bin/ss-redir
 	service_stop /usr/bin/ss-tunnel
+	killall ss-redir
+	killall ss-tunnel
 	/etc/init.d/firewall restart
 }
