@@ -1,4 +1,4 @@
-# OpenWrt路由器翻墙教程目录
+﻿# OpenWrt路由器翻墙教程目录
 
 * [无线路由器刷OpenWrt固件的准备工作](ebook/01.0.md)
 	* [什么是无线路由器固件](ebook/01.1.md)
@@ -36,7 +36,7 @@
 	* [WNDR4300 修改翻墙配置文件](ebook/wndr4300/3.config-fanqiang-for-netgear-wndr4300.md) 
 	* [WNDR4300 编译自动翻墙固件](ebook/wndr4300/4.build-fanqiang-img-for-netgear-wndr4300.md)
 	* [WNDR4300 怎样刷自动翻墙固件](ebook/wndr4300/5.wndr4300-flash-fanqiang-img.md) 	
-	* [WNDR4300 登陆并设置翻墙固件](ebook/wndr4300/6.login-setup-netgear-wndr4300-fanqiang.md) 	
+	* [WNDR4300 登录并设置翻墙固件](ebook/wndr4300/6.login-setup-netgear-wndr4300-fanqiang.md) 	
 * [应用：D-Link DIR-505刷OpenWrt翻墙教程](ebook/dir505/README.md)
 	* [如何进入 DIR-505 恢复模式](ebook/dir505/1.connect-dir505-openwrt.md)
 	* [DIR-505 刷OpenWrt固件过程](ebook/dir505/2.dir505-install-openwrt.md)
@@ -45,7 +45,7 @@
 	* [DIR-505 AP 模式翻墙教程](ebook/dir505/5.dir505-ap-mode.md)
 	* [DIR-505 编译OpenWrt全自动翻墙固件](ebook/dir505/6.dir505-build-image.md)
 	* [DIR-505 刷预编译OpenWrt翻墙固件](ebook/dir505/7.dir505-flash-fanqiang-image.md)
-	* [登陆并设置 DIR-505 OpenWrt 翻墙固件](ebook/dir505/8.login-setup-dir505-fanqiang.md)
+	* [登录并设置 DIR-505 OpenWrt 翻墙固件](ebook/dir505/8.login-setup-dir505-fanqiang.md)
 * [其他翻墙软件使用教程](ebook/05.0.md)
 	* [利用lantern 蓝灯实现浏览器自动翻墙](ebook/05.1.md)
 	* [加强翻墙上网的匿名性](ebook/05.2.md)

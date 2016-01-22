@@ -1,4 +1,4 @@
-史上最详细的OpenWrt shadowsocks路由器自动翻墙教程
+﻿史上最详细的OpenWrt shadowsocks路由器自动翻墙教程
 ================
 
 手把手教你路由器刷OpenWrt固件，自动穿越万里长城。
@@ -62,7 +62,7 @@
 
 * shadowsocks 服务端按照本项目规定的默认值进行设置（除了server IP)
 * 路由器刷OpenWrt shadowsocks翻墙固件
-* 登陆路由器修改server IP：  
+* 登录路由器修改server IP：  
 
 		# Modify 1.0.9.8 to your server IP address
 		vi /etc/shadowsocks.json	　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
