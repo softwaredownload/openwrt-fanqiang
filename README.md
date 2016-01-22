@@ -1,4 +1,4 @@
-﻿史上最详细的OpenWrt shadowsocks路由器自动翻墙教程
+史上最详细的OpenWrt shadowsocks路由器自动翻墙教程
 ================
 
 手把手教你路由器刷OpenWrt固件，自动穿越万里长城。
@@ -47,6 +47,7 @@
 	- openwrt-wndr4300/etc/uci-defaults/defaults
 - 编译自定义固件，设置FILES=~/Downloads/openwrt-wndr4300
 	
+	
 ## 本项目规定的默认值
 	shadowsocks server:			1.0.9.8
 	shadowsocks server_port:	1098
@@ -55,8 +56,25 @@
 	shadowsocks password:		killgfw
 	shadowsocks method:			aes-256-cfb
 	root login password:		fanqiang
-	WIFI password:				icanfly9876　　(for DIR-505 and TLWR2543 before 2015: wsjdw,8181)　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
-	　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+	WIFI password:				icanfly9876　　(for DIR-505 and TLWR2543 before 2015: wsjdw,8181)　　　　
+	　　　　　　　　　　　　　　　　　　　　　　　　　　　
+## 如何使用预编译翻墙固件：
+
+* shadowsocks 服务端按照本项目规定的默认值进行设置（除了server IP)
+* 路由器刷OpenWrt shadowsocks翻墙固件
+* 登陆路由器修改server IP：  
+
+		# Modify 1.0.9.8 to your server IP address
+		vi /etc/shadowsocks.json	　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+		# Modify 1.0.9.8 to your server IP address
+		vi /usr/bin/shadowsocks-firewall
+		
+		/etc/init.d/shadowsocks restart　　　
+		　　　　　　　　　　　　　　　　
+* 以上修改测试通过后，建议再修改 shadowsocks password, 路由器root password
+* 不建议修改端口号
+* 少数时候需要重启路由器才能使修改生效
+		
 		
 ## 相关资源
 
