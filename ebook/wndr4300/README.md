@@ -1,4 +1,5 @@
-﻿# 网件Netgear WNDR4300刷OpenWrt翻墙教程
+网件Netgear WNDR4300刷OpenWrt翻墙教程
+==================================
 
 网件Netgear WNDR4300是很多网友推荐的可刷OpenWRT的无线路由器。
 
