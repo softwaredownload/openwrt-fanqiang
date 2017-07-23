@@ -13,13 +13,6 @@ iptables -t nat -N SHADOWSOCKS_WHITELIST
 iptables -t nat -A SHADOWSOCKS -d 1.0.9.8 -j RETURN
 #iptables -t nat -A SHADOWSOCKS -d 1.0.9.7 -j RETURN
 
-#for hulu.com
-iptables -t nat -A SHADOWSOCKS -p tcp --dport 1935 -j REDIRECT --to-ports 7654
-iptables -t nat -A SHADOWSOCKS -p udp --dport 1935 -j REDIRECT --to-ports 7654
-
-# for youtube
-iptables -t nat -A SHADOWSOCKS -p udp --dport 443 -j REDIRECT --to-ports 7654
-
 # Ignore LANs IP address
 iptables -t nat -A SHADOWSOCKS -d 0.0.0.0/8 -j RETURN
 iptables -t nat -A SHADOWSOCKS -d 10.0.0.0/8 -j RETURN
@@ -33,6 +26,13 @@ iptables -t nat -A SHADOWSOCKS -d 240.0.0.0/4 -j RETURN
 # Check whitelist
 iptables -t nat -A SHADOWSOCKS -j SHADOWSOCKS_WHITELIST
 iptables -t nat -A SHADOWSOCKS -m mark --mark 1 -j RETURN
+
+#for hulu.com
+iptables -t nat -A SHADOWSOCKS -p tcp --dport 1935 -j REDIRECT --to-ports 7654
+iptables -t nat -A SHADOWSOCKS -p udp --dport 1935 -j REDIRECT --to-ports 7654
+
+# for Chrome browser and youtube.com
+iptables -t nat -A SHADOWSOCKS -p udp --dport 443 -j REDIRECT --to-ports 7654
 
 # Anything else should be redirected to shadowsocks's local port
 iptables -t nat -A SHADOWSOCKS -p tcp -j REDIRECT --to-ports 7654
