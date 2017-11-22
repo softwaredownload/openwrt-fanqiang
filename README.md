@@ -87,10 +87,6 @@
 - TP-Link TLWR2543 预编译翻墙固件(2015-12-24):  
 [https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/](https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/)
 
-- OpenWrt自动翻墙教程电子书下载  
-[https://software-download.name/2014/fanqiang-jiaocheng/](https://software-download.name/2014/fanqiang-jiaocheng/)
-
-
 - shadowsocks-libev-polarssl_2.4.3.ar71xx.ipk (2015-12-20):  
 [https://software-download.name/2014/shadowsocks-libev-polarssl-ar71xx-ipk-latest/](https://software-download.name/2014/shadowsocks-libev-polarssl-ar71xx-ipk-latest/)
 
