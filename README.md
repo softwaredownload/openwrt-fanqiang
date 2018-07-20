@@ -98,5 +98,3 @@
 
 ## 在线阅读OpenWrt翻墙路由器教程:
 * [https://www.gitbook.com/book/softwaredownload/openwrt-fanqiang/details](https://www.gitbook.com/book/softwaredownload/openwrt-fanqiang/details)
-* [https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md](https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md)
-
