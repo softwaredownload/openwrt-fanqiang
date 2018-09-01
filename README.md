@@ -49,14 +49,14 @@
 	
 	
 ## 本项目规定的默认值
-	shadowsocks server:			1.0.9.8
-	shadowsocks server_port:	1098
-	shadowsocks local_port:		7654
-	shadowsocks tunnel_port:	3210
-	shadowsocks password:		killgfw
-	shadowsocks method:			aes-256-cfb
-	root login password:		fanqiang
-	WIFI password:				icanfly9876　　(for DIR-505 and TLWR2543 before 2015: wsjdw,8181)　　　　
+	shadowsocks server:         1.0.9.8
+	shadowsocks server_port:    1098
+	shadowsocks local_port:     7654
+	shadowsocks tunnel_port:    3210
+	shadowsocks password:       killgfw
+	shadowsocks method:         aes-256-cfb
+	root login password:        fanqiang
+	WIFI password:              icanfly9876　　(for DIR-505 and TLWR2543 before 2015: wsjdw,8181)　　　　
 	　　　　　　　　　　　　　　　　　　　　　　　　　　　
 ## 如何使用预编译翻墙固件：
 
@@ -97,4 +97,4 @@
 
 
 ## 在线阅读OpenWrt翻墙路由器教程:
-* [https://www.gitbook.com/book/softwaredownload/openwrt-fanqiang/details](https://www.gitbook.com/book/softwaredownload/openwrt-fanqiang/details)
+* [https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md](https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md)
