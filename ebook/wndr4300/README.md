@@ -1,4 +1,4 @@
-网件Netgear WNDR4300刷OpenWrt翻墙教程
+﻿网件Netgear WNDR4300刷OpenWrt翻墙教程
 ==================================
 
 网件Netgear WNDR4300是很多网友推荐的可刷OpenWRT的无线路由器。
@@ -42,4 +42,4 @@ WNDR4300有v1和v2的区别，目前国行都是v1版本。
 [https://github.com/softwaredownload/openwrt-fanqiang](https://github.com/softwaredownload/openwrt-fanqiang "最简单的路由器刷OpenWrt固件翻墙教程")
 
 #### 在线阅读OpenWrt翻墙路由器教程:
-[https://www.gitbook.com/book/softwaredownload/openwrt-fanqiang/details](https://www.gitbook.com/book/softwaredownload/openwrt-fanqiang/details)
+[https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md](https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md)
