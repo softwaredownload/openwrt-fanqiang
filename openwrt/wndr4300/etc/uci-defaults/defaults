@@ -99,8 +99,6 @@ uci set dropbear.@dropbear[0].GatewayPorts='on'
 uci commit dropbear
 /etc/init.d/dropbear restart
 
-opkg remove dnsmasq
-
 /etc/init.d/dnsmasq enable
 /etc/init.d/shadowsocks enable
 

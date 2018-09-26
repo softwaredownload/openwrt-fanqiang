@@ -31,7 +31,7 @@ uci commit system
 /etc/init.d/system restart
 
 #change root password
-echo -e "fanqiang\nfanqiang" | (passwd $USER)  #修改路由器的管理员root对应的密码 11
+echo -e "fanqiang\nfanqiang" | (passwd $USER)  #修改路由器的管理员root对应的密码
 
 /etc/init.d/shadowsocks enable
 /etc/init.d/network restart

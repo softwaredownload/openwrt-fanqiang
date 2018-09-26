@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Author:	https://github.com/softwaredownload/openwrt-fanqiang
-# Date:		2016-01-09
+# Date:		2018-09-23
 
 TMP_HOSTS=/tmp/block.hosts.unsorted
 HOSTS=/etc/dnsmasq.d/blockad.conf
@@ -10,7 +10,7 @@ HOSTS=/etc/dnsmasq.d/blockad.conf
 rm ${TMP_HOSTS} 2> /dev/null
 
 for URL in \
-    "https://raw.githubusercontent.com/vokins/simpleu/master/hosts" \
+    "https://github.com/vokins/yhosts/raw/master/hosts" \
     "http://adaway.org/hosts.txt"
 do
     # filter out comment lines, empty lines, localhost... 

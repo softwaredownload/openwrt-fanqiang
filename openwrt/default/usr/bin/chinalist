@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Author: https://github.com/softwaredownload/openwrt-fanqiang
-# Date:   2014-07-12
+# Date:   2018-09-23
 
 #adblock() {
 #	wget -4 --no-check-certificate -O - https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt |
@@ -16,5 +16,7 @@
 
 wget -4 --no-check-certificate -O /etc/dnsmasq.d/accelerated-domains.china.conf https://github.com/felixonmars/dnsmasq-china-list/raw/master/accelerated-domains.china.conf
 wget -4 --no-check-certificate -O /etc/dnsmasq.d/bogus-nxdomain.china.conf https://github.com/felixonmars/dnsmasq-china-list/raw/master/bogus-nxdomain.china.conf
+wget -4 --no-check-certificate -O /etc/dnsmasq.d/apple.china.conf https://github.com/felixonmars/dnsmasq-china-list/raw/master/apple.china.conf
+wget -4 --no-check-certificate -O /etc/dnsmasq.d/google.china.conf https://github.com/felixonmars/dnsmasq-china-list/raw/master/google.china.conf
 
 #/etc/init.d/dnsmasq restart
