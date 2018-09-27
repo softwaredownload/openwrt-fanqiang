@@ -1,9 +1,9 @@
 #!/bin/sh
 
-# Author:	https://github.com/softwaredownload/openwrt-fanqiang
-#           phoeagon 
+# Author:      https://github.com/softwaredownload/openwrt-fanqiang
+#              phoeagon
 
-# Last update:		2018-09-27
+# Last update: 2018-09-27
 
 # create new chains named SHADOWSOCKS SHADOWSOCKS_WHITELIST
 iptables -t nat -N SHADOWSOCKS
