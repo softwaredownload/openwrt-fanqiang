@@ -6,12 +6,12 @@
 本教程翻墙方案的特点
 -----------------
 
-放弃建立黑名单的方案吧，被墙的网站每天在大量增加，有限的人生不能在无穷的手工添加黑名单、重启路由器中渡过。
+放弃建立黑名单的方案吧，被墙的网站每天在大量增加，有限的人生不能在无穷的手工添加黑名单、重启路由器中渡过
 
 大道至简，一劳永逸！
 
 - 建立国内重要网站名单，在国内进行dns查询
-- 其他网站通过 shadowsocks客户端向 shadowsocks服务端进行dns查询
+- 其他网站通过通过 shadowsocks 服务端进行dns查询
 - 国内或亚洲的IP流量走国内通道
 - 其他流量通过shadowsocks服务端转发
 - 屏蔽ISP劫持相关IP
@@ -31,7 +31,7 @@
 希望你应用本教程后，也把你的过程写下来，合并到这个项目中来:  
 [https://github.com/softwaredownload/openwrt-fanqiang](https://github.com/softwaredownload/openwrt-fanqiang)
 
-如何编译OpenWrt shadowsocks自动翻墙固件
+Linux下如何编译OpenWrt shadowsocks自动翻墙固件
 -------------------------------------
 
 - 首先把本项目clone到本地目录，如 ~/Downloads/openwrt-fanqiang
@@ -63,7 +63,7 @@
 如何使用预编译翻墙固件：
 ---------------------
 
-- shadowsocks 服务端按照本项目规定的默认值进行设置（除了server IP)
+- shadowsocks 服务端保持默认值（除了server IP)
 - 路由器刷OpenWrt shadowsocks翻墙固件
 - 登录路由器修改server IP：  
 
@@ -74,30 +74,29 @@
       /etc/init.d/shadowsocks restart
 
 - 以上修改测试通过后，建议再修改 shadowsocks password, 路由器root password
-- 不建议修改端口号
 - 少数时候需要重启路由器才能使修改生效
 
 相关资源
 ------
 
-- Netgear WNDR4300 预编译翻墙固件(2018-09):
+- Netgear WNDR4300 预编译翻墙固件，支持xchacha20-ietf-poly1305(2018-09):
     [https://software-download.name/2015/netgear-wndr4300-openwrt-fanqiang-gujian/](https://software-download.name/2015/netgear-wndr4300-openwrt-fanqiang-gujian/)
 
 - D-Link DIR-505 预编译翻墙固件(2015-12-24):  
     [https://software-download.name/2014/dlink-dir-505-openwrt-fanqiang/](https://software-download.name/2014/dlink-dir-505-openwrt-fanqiang/)
 
-- TP-Link TLWR2543 预编译翻墙固件(2015-12-24):             [https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/](https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/)
+- TP-Link TLWR2543 预编译翻墙固件(2015-12-24):
+    [https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/](https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/)
 
-- shadowsocks-libev-polarssl_2.4.3.ar71xx.ipk (2015-12-20):
-
-[https://software-download.name/2014/shadowsocks-libev-polarssl-ar71xx-ipk-latest/](https://software-download.name/2014/shadowsocks-libev-polarssl-ar71xx-ipk-latest/)
+- shadowsocks-libev_3.2.0-1_mips_24kc.ipk, simple-obfs_0.0.5-3_mips_24kc.ipk (2018-09):
+    [https://software-download.name/2014/shadowsocks-libev-polarssl-ar71xx-ipk-latest/](https://software-download.name/2014/shadowsocks-libev-polarssl-ar71xx-ipk-latest/)
 
 授权许可
 --------
 
 除特别声明外，本书中的内容使用[CC BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/)（创作共用 署名-相同方式共享3.0许可协议）授权，代码遵循[BSD 3-Clause License](<https://github.com/softwaredownload/openwrt-fanqiang/blob/master/LICENSE>)（3项条款的BSD许可协议）。
 
-在线阅读OpenWrt翻墙路由器教程:
+在线阅读OpenWrt翻墙路由器教程
 ---------------------------
 
 - [https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md](https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md)
