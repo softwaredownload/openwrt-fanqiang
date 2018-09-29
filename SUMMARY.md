@@ -27,6 +27,7 @@ OpenWrt路由器翻墙教程目录
   * [OpenWrt路由器翻墙为什么会失败](ebook/03.7.md)
   * [Shodowsocks不同加密方式速度区别](ebook/03.8.md)
   * [零起点DO VPS shadowsocks-libev 翻墙设置教程](ebook/03.9.md)
+  * [Ubuntu OpenWrt 开启 TCP Fast Open (TFO)流量加速](ebook/03.10.md)
 * [OpenWrt编译翻墙固件教程](ebook/04.0.md)
   * [编译shadowsocks-libev for OpenWrt ipk安装包](ebook/04.1.md)
   * [下载和设置翻墙配置文件](ebook/04.2.md)
