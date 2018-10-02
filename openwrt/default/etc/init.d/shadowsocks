@@ -17,8 +17,8 @@ start() {
     service_start /usr/bin/ss-tunnel -b 0.0.0.0 -c /etc/shadowsocks.json -l 3210 -L 8.8.4.4:53 -u
     /usr/bin/shadowsocks-firewall
     #/usr/bin/shadowsocks-firewall-global
-    #/usr/bin/shadowsocks-firewall-china
-    #/usr/bin/shadowsocks-firewall-asia
+    #/usr/bin/shadowsocks-firewall-ignore-china
+    #/usr/bin/shadowsocks-firewall-ignore-asia
 }
 
 stop() {
