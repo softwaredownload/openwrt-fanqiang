@@ -79,7 +79,7 @@ Linux下如何编译OpenWrt shadowsocks自动翻墙固件
 相关资源
 ------
 
-- Netgear WNDR4300 预编译翻墙固件，支持xchacha20-ietf-poly1305(2018-09):
+- Netgear WNDR4300 预编译翻墙固件，支持xchacha20-ietf-poly1305(2018-10):
 
     [https://software-download.name/2015/netgear-wndr4300-openwrt-fanqiang-gujian/](https://software-download.name/2015/netgear-wndr4300-openwrt-fanqiang-gujian/)
 
@@ -87,9 +87,13 @@ Linux下如何编译OpenWrt shadowsocks自动翻墙固件
 
     [https://software-download.name/2014/shadowsocks-libev-polarssl-ar71xx-ipk-latest/](https://software-download.name/2014/shadowsocks-libev-polarssl-ar71xx-ipk-latest/)
 
-- 史上最详细的OpenWrt路由器翻墙教程下载 PDF epub (2018-09)
+- 史上最详细的OpenWrt路由器翻墙教程下载 PDF epub (2018-10)
 
     [https://software-download.name/2014/fanqiang-jiaocheng/](https://software-download.name/2014/fanqiang-jiaocheng/)
+
+- Shadowsocks-libev Windows 客户端下载: ss-redir ss-tunnel obfs-local (2018-08 by cokebar)
+
+    [https://software-download.name/2018/shadowsocks-libev-windows-binary-download/](https://software-download.name/2018/shadowsocks-libev-windows-binary-download/)
 
 - D-Link DIR-505 预编译翻墙固件 (2015-12-24):
 
