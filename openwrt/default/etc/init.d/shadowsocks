@@ -1,7 +1,7 @@
 #!/bin/sh /etc/rc.common
 
 # Author: https://github.com/softwaredownload/openwrt-fanqiang
-# Last Update: 2018-09-27
+# Last Update: 2018-10
 
 START=95
 
@@ -13,12 +13,11 @@ start() {
     echo 'server=/#/127.0.0.1#3210' > /etc/dnsmasq.d/gfwlist.conf
     /etc/init.d/dnsmasq restart
 
-    service_start /usr/bin/ss-redir -b 0.0.0.0 -c /etc/shadowsocks.json -f /var/run/shadowsocks.pid -u
-    service_start /usr/bin/ss-tunnel -b 0.0.0.0 -c /etc/shadowsocks.json -l 3210 -L 8.8.4.4:53 -u
-    /usr/bin/shadowsocks-firewall
-    #/usr/bin/shadowsocks-firewall-global
-    #/usr/bin/shadowsocks-firewall-ignore-china
-    #/usr/bin/shadowsocks-firewall-ignore-asia
+    service_start /usr/bin/ss-redir -b 0.0.0.0 -c /etc/shadowsocks-libev/config.json -f /var/run/shadowsocks.pid -u
+    service_start /usr/bin/ss-tunnel -b 0.0.0.0 -c /etc/shadowsocks-libev/config.json -l 3210 -L 8.8.4.4:53 -u
+    /usr/bin/ss-firewall-asia
+    #/usr/bin/ss-firewall-global
+    #/usr/bin/ss-firewall-china
 }
 
 stop() {
