@@ -53,11 +53,11 @@ echo "**** 无线设置成功****"
 #uci set shadowsocks.@shadowsocks[-1].server_port='1098'   #设置服务器端口 11
 #uci set shadowsocks.@shadowsocks[-1].password='killgfw'      #设置ss密码  11
 #uci set shadowsocks.@shadowsocks[-1].encrypt_method='aes-256-cfb'  #设置加密方式 11
-#uci set shadowsocks.@shadowsocks[-1].ignore_list='/etc/chinadns_chnroute.txt'
+#uci set shadowsocks.@shadowsocks[-1].ignore_list='/etc/ip_china.txt'
 #uci set shadowsocks.@shadowsocks[-1].udp_relay='1'
 #uci set shadowsocks.@shadowsocks[-1].tunnel_enable='1' # 11
 #uci set shadowsocks.@shadowsocks[-1].tunnel_port='3210'
-#uci set shadowsocks.@shadowsocks[-1].tunnel_forward='8.8.8.8:53'
+#uci set shadowsocks.@shadowsocks[-1].tunnel_forward='8.8.4.4:53'
 #uci commit shadowsocks
 
 

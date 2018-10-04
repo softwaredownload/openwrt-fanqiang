@@ -2,7 +2,7 @@
 
 ssh router <<'ENDSSH'
 
-sed -i -e 's@^\(\s*\)\(/.\+shadowsocks-firewall\)@\1#\2@g' -e 's@^\(\s*\)#\(/.\+shadowsocks-firewall-global$\)@\1\2@' /etc/init.d/shadowsocks
+sed -i -e 's@^\(\s*\)\(/.\+ss-firewall\)@\1#\2@g' -e 's@^\(\s*\)#\(/.\+ss-firewall-global$\)@\1\2@' /etc/init.d/shadowsocks
 /etc/init.d/shadowsocks restart
 
 ENDSSH

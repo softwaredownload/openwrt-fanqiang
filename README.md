@@ -43,8 +43,8 @@ Linux下如何编译OpenWrt shadowsocks自动翻墙固件
   - 复制默认配置文件夹下面的文件到 ~/Downloads/openwrt-wndr4300/ 下
   - 如果有针对特定路由器的配置文件，也复制到~/Downloads/openwrt-wndr4300/，并覆盖同名文件
 - 修改配置文件，编译后就直接可以用了。否则刷上固件后登录路由器再修改。主要修改：
-  - openwrt-wndr4300/etc/shadowsocks.json
-  - openwrt-wndr4300/usr/bin/shadowsocks-firewall
+  - openwrt-wndr4300/etc/shadowsocks-libev/config.json
+  - openwrt-wndr4300/usr/bin/ss-firewall-asia
   - openwrt-wndr4300/etc/uci-defaults/defaults
 - 编译自定义固件，设置FILES=~/Downloads/openwrt-wndr4300
 
@@ -68,9 +68,9 @@ Linux下如何编译OpenWrt shadowsocks自动翻墙固件
 - 登录路由器修改server IP：  
 
       # Modify 1.0.9.8 to your server IP address
-      vi /etc/shadowsocks.json
+      vi /etc/shadowsocks-libev/config.json
       # Modify 1.0.9.8 to your server IP address
-      vi /usr/bin/shadowsocks-firewall
+      vi /usr/bin/ss-firewall-asia
       /etc/init.d/shadowsocks restart
 
 - 以上修改测试通过后，建议再修改 shadowsocks password, 路由器root password
