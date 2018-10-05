@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# Author:	https://github.com/softwaredownload/openwrt-fanqiang
-# Date:		2018-10
+# Author:      https://github.com/softwaredownload/openwrt-fanqiang
+# last update: 2018-10
 
 TMP_HOSTS=/tmp/block.hosts.unsorted
 HOSTS=/etc/dnsmasq.d/blockad.conf
@@ -9,20 +9,23 @@ HOSTS=/etc/dnsmasq.d/blockad.conf
 # remove any old TMP_HOSTS that might have stuck around
 rm ${TMP_HOSTS} 2> /dev/null
 
+    #"https://hosts.nfz.moe/full/hosts"
+    #https://github.com/tekintian/hosts_ads_block/raw/master/mobile/hosts
+
 for URL in \
     "https://hosts.nfz.moe/basic/hosts" \
     "https://github.com/e32ubhds/Hosts/raw/master/Hosts" \
     "http://adaway.org/hosts.txt"
 do
-    # filter out comment lines, empty lines, localhost... 
+    # filter out comment lines, empty lines, localhost...
     # remove trailing comments, space( ,tab), empty line
     # replace line to dnsmasq format
     # remove carriage returns
     # append the results to TMP_HOSTS
-    wget -4 --no-check-certificate -qO- "${URL}" | grep -v -e "^#" -e "^\s*$" -e "localhost" -e "^;" -e "^@" -e "^:" -e "^[a-zA-Z]" \
-	| sed -E -e "s/#.*$//" -e "s/[[:space:]]*//g" -e "/^$/d" \
-	-e "s/^127.0.0.1/server=\/./" -e "s/0.0.0.0/server=\/./" -e "/^[0-9].*$/d" -e "s/$/\/127.0.0.0/" \
-	| tr -d "\r" >> ${TMP_HOSTS}
+    wget -4 --no-check-certificate -qO- "${URL}" | grep -v -e "^#" -e "^\s*$" -e "localhost" -e "broadcasthost" -e "ip6" -e "^;" -e "^@" -e "^:" -e "^[a-zA-Z]" \
+    | sed -E -e "s/#.*$//" -e "s/[[:space:]]*//g" -e "/^$/d" \
+    -e "s/^127.0.0.1/server=\/./" -e "s/0.0.0.0/server=\/./" -e "/^[0-9].*$/d" -e "s/$/\/127.0.0.0/" \
+    | tr -d "\r" >> ${TMP_HOSTS}
 
 done
 
