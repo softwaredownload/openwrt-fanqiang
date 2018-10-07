@@ -1,6 +1,0 @@
-{
-	"server":"1.0.9.8",
-	"server_port":1098,
-	"password":"killgfw",
-	"method":"aes-256-cfb"
-}
