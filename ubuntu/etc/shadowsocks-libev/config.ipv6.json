@@ -1,7 +1,0 @@
-{
-    "server":["[::0]", "0.0.0.0"],
-    "ipv6_first":true,
-    "server_port":1098,
-    "password":"killgfw",
-    "method":"aes-256-cfb"
-}

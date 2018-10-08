@@ -56,7 +56,6 @@ Linux下如何编译OpenWrt shadowsocks自动翻墙固件
     shadowsocks local_port:     7654
     shadowsocks tunnel_port:    3210
     shadowsocks password:       killgfw
-    shadowsocks method:         aes-256-cfb
     root login password:        fanqiang
     WIFI password:              icanfly9876　　(for DIR-505 and TLWR2543 before 2015: wsjdw,8181)
 

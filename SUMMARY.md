@@ -25,7 +25,7 @@ OpenWrt路由器翻墙教程目录
   * [配置OpenWrt路由器智能自动翻墙](ebook/03.5.md)
   * [OpenWrt自动更新设置和屏蔽广告](ebook/03.6.md)
   * [OpenWrt路由器翻墙为什么会失败](ebook/03.7.md)
-  * [Shodowsocks不同加密方式速度区别](ebook/03.8.md)
+  * [Shodowsocks不同加密算法的区别](ebook/03.8.md)
   * [零起点DO VPS shadowsocks-libev 翻墙设置教程](ebook/03.9.md)
   * [Ubuntu OpenWrt 开启 TCP Fast Open (TFO)流量加速](ebook/03.10.md)
   * [OpenWrt + Git Bash for Windows 快速切换翻墙模式](ebook/03.11.md)
