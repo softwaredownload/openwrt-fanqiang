@@ -9,3 +9,4 @@ pkg/*
 *.html
 *.exe
 gen.sh
+sftp.txt

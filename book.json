@@ -2,7 +2,7 @@
 	"language":"zh",
 	"title":"OpwnWrt路由器智能自动翻墙教程",
 	"description":"OpenWrt shadowsocks路由器智能、自动翻墙教程",
-	"author":"github.com/softwaredownload",
+	"author":"fanqiang.software-download.name",
 	"links" : {
         "sidebar" : {
             "openwrt-fanqiang" : "https://github.com/softwaredownload/openwrt-fanqiang"
@@ -17,7 +17,7 @@
     
 	"pluginsConfig": {
 		"page-footer-ex": {
-			"copyright": "版权所有： [https://github.com/softwaredownload/openwrt-fanqiang](https://github.com/softwaredownload/openwrt-fanqiang)",
+			"copyright": "版权所有： [https://fanqiang.software-download.name](https://fanqiang.software-download.name)",
 			"markdown": true,
 			"update_label": "<i>Updated</i>",
 			"update_format": "YYYY-MM-DD"

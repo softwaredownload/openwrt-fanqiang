@@ -110,4 +110,5 @@ Linux下如何编译OpenWrt shadowsocks自动翻墙固件
 在线阅读OpenWrt翻墙路由器教程
 ---------------------------
 
+- [https://fanqiang.software-download.name](https://fanqiang.software-download.name)
 - [https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md](https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md)

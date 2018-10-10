@@ -39,4 +39,5 @@ D-Link DIR 505 硬件信息
 [https://github.com/softwaredownload/openwrt-fanqiang](https://github.com/softwaredownload/openwrt-fanqiang "最简单的路由器刷OpenWrt固件翻墙教程")
 
 **在线阅读OpenWrt翻墙路由器教程:**
-[https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md](https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md)
+- [https://fanqiang.software-download.name](https://fanqiang.software-download.name)
+- [https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md](https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md)
