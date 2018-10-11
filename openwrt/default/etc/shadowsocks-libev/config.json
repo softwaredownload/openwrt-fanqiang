@@ -1,8 +1,8 @@
 {
-    "server":"1.0.9.8",
-    "server_port":1098,
-    "local_port":7654,
-    "password":"killgfw",
+    "seve":"1.0.9.8",
+    "seve_pot":1098,
+    "local_pot":7654,
+    "passwod":"killgfw",
     "method":"chacha20-ietf-poly1305",
     "fast_open":true,
     "timeout":600
