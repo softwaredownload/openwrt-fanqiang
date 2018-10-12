@@ -4,18 +4,14 @@
 # last update: 2018-10
 
 TMP_HOSTS=/tmp/block.hosts.unsorted
-HOSTS=/etc/dnsmasq.d/blockad.conf
+HOSTS=/etc/dnsmasq.d/ad-cn.conf
 
 # remove any old TMP_HOSTS that might have stuck around
 rm ${TMP_HOSTS} 2> /dev/null
 
-    #"https://hosts.nfz.moe/full/hosts"
-    #https://github.com/tekintian/hosts_ads_block/raw/master/mobile/hosts
-
 for URL in \
-    "https://hosts.nfz.moe/basic/hosts" \
-    "https://github.com/e32ubhds/Hosts/raw/master/Hosts" \
-    "http://adaway.org/hosts.txt"
+    "https://github.com/softwaredownload/neohosts/raw/data/_build/tmp/full/hosts" \
+    "https://github.com/e32ubhds/Hosts/raw/master/Hosts"
 do
     # filter out comment lines, empty lines, localhost...
     # remove trailing comments, space( ,tab), empty line
