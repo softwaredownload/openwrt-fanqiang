@@ -3,7 +3,7 @@
 
 手把手教你路由器刷OpenWrt固件，自动穿越万里长城
 
-本教程翻墙方案的特点
+本科学上网方案的特点
 -----------------
 
 放弃建立黑名单的方案吧，被墙的网站每天在大量增加，有限的人生不能在无穷的手工添加黑名单、重启路由器中渡过
@@ -101,7 +101,7 @@ Linux下如何编译OpenWrt shadowsocks自动翻墙固件
 
 除特别声明外，本书中的内容使用[CC BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/)（创作共用 署名-相同方式共享3.0许可协议）授权，代码遵循[BSD 3-Clause License](<https://github.com/softwaredownload/openwrt-fanqiang/blob/master/LICENSE>)（3项条款的BSD许可协议）。
 
-在线阅读OpenWrt翻墙路由器教程
+在线阅读史上最详细的科学上网教程
 ---------------------------
 
 - [https://fanqiang.software-download.name](https://fanqiang.software-download.name)
