@@ -61,6 +61,7 @@ OpenWrt路由器翻墙教程目录
   * [Shadowsocks 服务端 Ubuntu 开启BBR加速](ebook/06.1.md)
   * [Ubuntu server 最大打开文件数目优化](ebook/06.2.md)
   * [Linux TCP UDP 网络性能优化](ebook/06.3.md)
+  * [Linux swap 交换文件优化](ebook/06.4.md)
 * [附录](ebook/09.0.md)
   * [翻墙软件、教程汇总](ebook/09.1.md)
   * [本机阅读本教程的方法](ebook/09.2.md)
