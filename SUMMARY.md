@@ -57,6 +57,7 @@ OpenWrt路由器翻墙教程目录
 * [其他翻墙软件使用教程](ebook/05.0.md)
   * [利用lantern 蓝灯实现浏览器自动翻墙](ebook/05.1.md)
   * [加强翻墙上网的匿名性](ebook/05.2.md)
+  * [浏览器使用 DNS over HTTPS (DoH) 进行安全DNS](ebook/05.3.md)
 * [全面优化 Linux 系统](ebook/06.0.md)
   * [Shadowsocks 服务端 Ubuntu 开启BBR加速](ebook/06.1.md)
   * [Ubuntu server 最大打开文件数目优化](ebook/06.2.md)
