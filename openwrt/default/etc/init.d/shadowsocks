@@ -26,8 +26,9 @@ stop() {
 
     service_stop /usr/bin/ss-redir
     service_stop /usr/bin/ss-tunnel
+    service_stop /usr/bin/obfs-local
     killall ss-redir
     killall ss-tunnel
-    killall obfs-local    
+    killall obfs-local
     /etc/init.d/firewall restart
 }
