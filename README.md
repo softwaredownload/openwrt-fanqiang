@@ -56,7 +56,7 @@ Linux下如何编译OpenWrt shadowsocks自动翻墙固件
     shadowsocks tunnel_port:    3210
     shadowsocks password:       killgfw
     root login password:        fanqiang
-    WIFI password:              icanfly9876　　(for DIR-505 and TLWR2543 before 2015: wsjdw,8181)
+    WIFI password:              icanfly9876
 
 如何使用预编译翻墙固件：
 ---------------------
@@ -77,10 +77,10 @@ Linux下如何编译OpenWrt shadowsocks自动翻墙固件
 相关资源
 ------
 
-- Netgear WNDR4300 预编译翻墙固件，支持xchacha20-ietf-poly1305(2018-10):  
+- Netgear WNDR4300 预编译翻墙固件，支持xchacha20-ietf-poly1305(2018-10-22):  
     [https://software-download.name/2015/netgear-wndr4300-openwrt-fanqiang-gujian/](https://software-download.name/2015/netgear-wndr4300-openwrt-fanqiang-gujian/)
 
-- shadowsocks-libev_3.2.0-1_mips_24kc.ipk, simple-obfs_0.0.5-3_mips_24kc.ipk (2018-09):  
+- shadowsocks-libev_3.2.0-1_mips_24kc.ipk, simple-obfs_0.0.5-3_mips_24kc.ipk (2018-10-22):  
     [https://software-download.name/2014/shadowsocks-libev-polarssl-ar71xx-ipk-latest/](https://software-download.name/2014/shadowsocks-libev-polarssl-ar71xx-ipk-latest/)
 
 - 史上最详细的OpenWrt路由器翻墙教程下载 PDF epub (2018-10)  
@@ -89,10 +89,10 @@ Linux下如何编译OpenWrt shadowsocks自动翻墙固件
 - Shadowsocks-libev Windows 客户端下载: ss-redir ss-tunnel obfs-local (2018-08 by cokebar)  
     [https://software-download.name/2018/shadowsocks-libev-windows-binary-download/](https://software-download.name/2018/shadowsocks-libev-windows-binary-download/)
 
-- D-Link DIR-505 预编译翻墙固件 (2015-12-24):  
+- D-Link DIR-505 预编译翻墙固件 (2018-10-22):  
     [https://software-download.name/2014/dlink-dir-505-openwrt-fanqiang/](https://software-download.name/2014/dlink-dir-505-openwrt-fanqiang/)
 
-- TP-Link TLWR2543 预编译翻墙固件 (2015-12-24):  
+- TP-Link TLWR2543 预编译翻墙固件 (2018-10-22):  
     [https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/](https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/)
 
 授权许可
