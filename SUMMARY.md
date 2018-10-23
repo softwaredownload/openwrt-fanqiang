@@ -59,6 +59,7 @@ OpenWrt路由器翻墙教程目录
   * [加强翻墙上网的匿名性](ebook/05.2.md)
   * [浏览器使用 DNS over HTTPS (DoH) 进行安全DNS](ebook/05.3.md)
 * [全面优化 Linux 系统](ebook/06.0.md)
+  * [Ubuntu OpenWrt 开启 TCP Fast Open (TFO)流量加速](ebook/06.01.md)
   * [Shadowsocks 服务端 Ubuntu 开启BBR加速](ebook/06.1.md)
   * [Ubuntu server 最大打开文件数目优化](ebook/06.2.md)
   * [Linux TCP UDP 网络性能优化](ebook/06.3.md)
