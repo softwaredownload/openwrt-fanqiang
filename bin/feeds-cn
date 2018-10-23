@@ -1,0 +1,7 @@
+#!/bin/sh
+
+ssh router <<'ENDSSH'
+
+sed -i s/downloads.openwrt.org/openwrt.proxy.ustclug.org/ /etc/opkg/distfeeds.conf
+
+ENDSSH

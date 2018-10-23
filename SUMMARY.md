@@ -16,7 +16,7 @@ OpenWrt路由器翻墙教程目录
   * [命令行 OpenWrt sysupgrade 更新固件](ebook/02.8.md)
   * [命令行uci设置OpenWrt Router模式参数](ebook/02.9.md)
   * [命令行uci设置OpenWrt ap模式参数](ebook/02.10.md)
-  * [让openwrt能正常安装软件](ebook/02.15.md)
+  * [配置 OpenWrt feeds 使用国内镜像下载仓库](ebook/02.15.md)
 * [shadowsocks-libev翻墙教程](ebook/03.0.md)
   * [什么是shadowsocks-libev翻墙软件](ebook/03.1.md)
   * [翻墙软件Shadowsocks-libev服务端设置](ebook/03.2.md)
