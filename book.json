@@ -1,11 +1,11 @@
 {
-	"language":"zh",
+	"language":"zh-CN",
 	"title":"OpwnWrt路由器自动翻墙、科学上网教程",
 	"description":"史上最详细的OpenWrt shadowsocks路由器自动翻墙、科学上网教程",
 	"author":"fanqiang.software-download.name",
 	"links" : {
         "sidebar" : {
-            "openwrt-fanqiang" : "https://github.com/softwaredownload/openwrt-fanqiang"
+            "Github 主页" : "https://github.com/softwaredownload/openwrt-fanqiang"
         }
     },
     
@@ -13,7 +13,8 @@
 		"search",
 		"splitter",
 		"page-footer-ex",
-                "disqus"
+        "disqus",
+        "sitemap"
     ],
     
 	"pluginsConfig": {
@@ -25,7 +26,10 @@
 		},
 		"disqus": {
 			"shortName": "software-download"
-	        }                
+	    },
+		"sitemap": {
+		    "hostname": "https://fanqiang.softwaredownload.name/"
+		}		                        
 	}
 }
 
