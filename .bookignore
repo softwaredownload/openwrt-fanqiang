@@ -1,0 +1,7 @@
+node_modules
+_book
+z_resource
+*.pdf
+*.mobi
+*.epub
+gen.sh

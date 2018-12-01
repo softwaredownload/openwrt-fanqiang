@@ -5,7 +5,7 @@
 	"author":"fanqiang.software-download.name",
 	"links" : {
         "sidebar" : {
-            "Github 主页" : "https://github.com/softwaredownload/openwrt-fanqiang"
+            "翻墙教程 Github" : "https://github.com/softwaredownload/openwrt-fanqiang"
         }
     },
     
@@ -14,7 +14,10 @@
 		"splitter",
 		"page-footer-ex",
         "disqus",
-        "sitemap"
+        "sitemap",       
+        "anchors",
+        "expandable-chapters",
+        "neo-navigator"
     ],
     
 	"pluginsConfig": {
@@ -29,7 +32,12 @@
 	    },
 		"sitemap": {
 		    "hostname": "https://fanqiang.softwaredownload.name/"
-		}		                        
+		},
+        "page-toc" : {
+            "selector": ".markdown-section h1, .markdown-section h2",
+            "position": "before-first",
+            "showByDefault": true	    
+        }		                 
 	}
 }
 
