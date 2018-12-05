@@ -1,7 +1,7 @@
 {
-	"language":"zh-CN",
+	"language":"zh-hans",
 	"title":"OpwnWrt路由器自动翻墙、科学上网教程",
-	"description":"史上最详细的OpenWrt shadowsocks路由器自动翻墙、科学上网教程",
+	"description":"史上最详细的路由器科学上网、翻墙教程，OpenWrt，shadowsocks",
 	"author":"fanqiang.software-download.name",
 	"links" : {
         "sidebar" : {
@@ -14,7 +14,7 @@
 		"splitter",
 		"page-footer-ex",
         "disqus",
-        "sitemap",       
+        "sitemap-general",       
         "anchors",
         "expandable-chapters",
         "neo-navigator"
@@ -24,14 +24,14 @@
 		"page-footer-ex": {
 			"copyright": "版权所有，转载请注明出处： [https://fanqiang.software-download.name](https://fanqiang.software-download.name)",
 			"markdown": true,
-			"update_label": "<i>Updated</i>",
+			"update_label": "",
 			"update_format": "YYYY-MM-DD"
 		},
 		"disqus": {
 			"shortName": "software-download"
 	    },
-		"sitemap": {
-		    "hostname": "https://fanqiang.softwaredownload.name/"
+		"sitemap-general": {
+		    "prefix": "https://fanqiang.softwaredownload.name/"
 		},
         "page-toc" : {
             "selector": ".markdown-section h1, .markdown-section h2",
@@ -40,4 +40,3 @@
         }		                 
 	}
 }
-

@@ -1,7 +1,3 @@
 node_modules
-_book
+*.md
 z_resource
-*.pdf
-*.mobi
-*.epub
-gen.sh
