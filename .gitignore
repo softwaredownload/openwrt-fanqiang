@@ -5,8 +5,8 @@ node_modules
 # vim swapfile
 *.swp
 *~
+
 pkg/*
 *.html
 *.exe
-gen.sh
 *.ico

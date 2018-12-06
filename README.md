@@ -10,12 +10,12 @@
 
 大道至简，一劳永逸！
 
-- 建立国内重要网站白名单，在国内进行dns查询
-- 其他网站通过通过 shadowsocks 服务端进行dns查询
-- 国内或亚洲的IP流量走国内通道
+- [建立国内重要网站白名单](https://github.com/softwaredownload/openwrt-fanqiang/blob/master/openwrt/default/etc/dnsmasq.d/accelerated-domains.china.conf)，在国内进行dns查询
+- [其他网站通过通过 shadowsocks 服务端进行dns查询](ebook/03.5.md)
+- 亚洲或国内的IP流量走国内通道
 - 其他流量通过shadowsocks服务端转发
-- 屏蔽国内外的广告
-- [利用 Bash 一键切换翻墙模式](/ebook/03.11.md)
+- [路由器屏蔽国内外的广告](ebook/03.6.md)
+- [利用 Bash 一键切换翻墙模式](ebook/03.11.md)
 
 知识若不分享，实在没有意义
 -----------------------
@@ -24,9 +24,15 @@
 
 查资料发现，著名的开源路由器固件OpenWrt支持家里的路由器 TP-Link WR2543N V1 ，于是就给路由器安装了OpenWrt并设置为自动智能翻墙
 
-自由的感觉真好:　youtube, twitter, facebook, google...
+再也没有打不开的网站了，自由的感觉真好:　youtube, twitter, facebook, google...
 
-什么是圣人，圣人就是得到和付出比较均衡的人。天地生我，我敬天地；父母育我，我亦养父母；网上获得知识，也要在网上分享知识。于是，花了许多天，查资料，写教程，调试固件，不知不觉一天就过去了
+什么是圣人，**圣人就是得到和付出比较均衡的人**：
+
+- 天地生我，我敬天地
+- 父母育我，我养父母
+- 网上获得知识，网上分享知识
+
+于是，花了许多天，查资料，写教程，调试固件，不知不觉一天就过去了
 
 希望你应用本教程后，也把你的过程写下来，合并到这个项目中来:  
 [https://github.com/softwaredownload/openwrt-fanqiang](https://github.com/softwaredownload/openwrt-fanqiang)
