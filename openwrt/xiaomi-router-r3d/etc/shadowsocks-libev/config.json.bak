@@ -1,0 +1,8 @@
+{
+    "server":"104.225.144.14",
+    "server_port":20002,
+    "local_port":7654,
+    "password":"1234@qwer",
+    "method":"aes-256-cfb",
+    "timeout":600
+}

@@ -1,0 +1,10 @@
+ 2019-06-15 12:38:33 ERROR: tcp fast open is not supported by this environment
+ 2019-06-15 12:38:33 INFO: initializing ciphers... aes-256-cfb
+ 2019-06-15 12:38:33 INFO: This system doesn't provide enough entropy to quickly generate high-quality random numbers.
+Installing the rng-utils/rng-tools, jitterentropy or haveged packages may help.
+On virtualized Linux environments, also consider using virtio-rng.
+The service will not start until enough entropy has been collected.
+
+ 2019-06-15 12:38:33 INFO: listening at 0.0.0.0:3210
+ 2019-06-15 12:38:33 INFO: UDP relay enabled
+ 2019-06-15 12:38:33 INFO: running from root user
