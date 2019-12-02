@@ -1,0 +1,36 @@
+#!/bin/sh
+
+# Author: https://github.com/softwaredownload/openwrt-fanqiang
+# Date: 2014-08-22
+
+cp /etc/config/backup/* /etc/config/
+
+
+uci set network.lan.gateway=192.168.1.1
+uci set network.lan.dns=192.168.1.1
+uci set network.lan.ipaddr=192.168.1.234
+
+uci commit network
+
+uci set dhcp.lan.ignore=1
+uci commit dhcp
+
+uci set wireless.@wifi-device[0].channel=11
+uci set wireless.@wifi-device[0].txpower=15
+uci set wireless.@wifi-device[0].disabled=0
+uci set wireless.@wifi-device[0].country='CN'
+uci set wireless.@wifi-iface[0].mode='ap'
+uci set wireless.@wifi-iface[0].ssid='eastking-dir505'
+uci set wireless.@wifi-iface[0].encryption='psk2'
+uci set wireless.@wifi-iface[0].key='icanfly9876'
+
+#uci set wireless.@wifi-iface[0].macfilter='allow'                                    
+#uci add_list wireless.@wifi-iface[0].maclist=''
+
+uci commit wireless
+#wifi
+
+
+/etc/init.d/network restart
+
+

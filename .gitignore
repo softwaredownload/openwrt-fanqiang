@@ -1,0 +1,12 @@
+node_modules
+.grunt
+/_book/
+
+# vim swapfile
+*.swp
+*~
+
+pkg/*
+*.html
+*.exe
+*.ico

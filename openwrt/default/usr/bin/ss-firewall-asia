@@ -1,0 +1,61 @@
+#!/bin/sh
+
+# Author:       https://github.com/softwaredownload/openwrt-fanqiang
+#               phoeagon tefiszx idonknown
+# Last Update:  2018-10
+
+#create new chains
+iptables -t nat -N SHADOWSOCKS
+iptables -t nat -N SHADOWSOCKS_WHITELIST
+
+# Ignore your shadowsocks server-s's addresses
+# It's very IMPORTANT, just be careful
+# you'd better add them in an individual file
+for white_ip in `cat /etc/shadowsocks-libev/ip_server.txt`;
+do
+    iptables -t nat -A SHADOWSOCKS -d "${white_ip}" -j RETURN
+done
+
+# Ignore Custom IP list
+for white_ip in `cat /etc/shadowsocks-libev/ip_custom.txt`;
+do
+    iptables -t nat -A SHADOWSOCKS -d "${white_ip}" -j RETURN
+done
+
+# for Chrome youtube
+iptables -t nat -A SHADOWSOCKS -p udp --dport 443 -j REDIRECT --to-ports 7654
+
+# Ignore LANs to bypass the proxy
+# See Wikipedia and RFC5735 for full list of reserved networks.
+iptables -t nat -A SHADOWSOCKS -d 0.0.0.0/8 -j RETURN
+iptables -t nat -A SHADOWSOCKS -d 10.0.0.0/8 -j RETURN
+iptables -t nat -A SHADOWSOCKS -d 127.0.0.0/8 -j RETURN
+iptables -t nat -A SHADOWSOCKS -d 169.254.0.0/16 -j RETURN
+iptables -t nat -A SHADOWSOCKS -d 172.16.0.0/12 -j RETURN
+iptables -t nat -A SHADOWSOCKS -d 192.168.0.0/16 -j RETURN
+iptables -t nat -A SHADOWSOCKS -d 224.0.0.0/4 -j RETURN
+iptables -t nat -A SHADOWSOCKS -d 240.0.0.0/4 -j RETURN
+
+# Check whitelist
+iptables -t nat -A SHADOWSOCKS -j SHADOWSOCKS_WHITELIST
+iptables -t nat -A SHADOWSOCKS -m mark --mark 1 -j RETURN
+
+
+# Anything else TCP request should be redirected to shadowsocks's local port
+iptables -t nat -A SHADOWSOCKS -p tcp -j REDIRECT --to-ports 7654
+# Apply the rules
+iptables -t nat -A PREROUTING -p tcp -j SHADOWSOCKS
+
+
+# Or ignore Asia IP address
+for white_ip in `cat /etc/shadowsocks-libev/ip_asia.txt`;
+do
+    iptables -t nat -A SHADOWSOCKS_WHITELIST -d "${white_ip}" -j MARK --set-mark 1
+done
+
+# Ignore China IP address
+# See ashi009/bestroutetb for a highly optimized CHN route list.
+#for white_ip in `cat /etc/shadowsocks-libev/ip_china.txt`;
+#do
+#    iptables -t nat -A SHADOWSOCKS_WHITELIST -d "${white_ip}" -j MARK --set-mark 1
+#done

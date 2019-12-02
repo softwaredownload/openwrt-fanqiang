@@ -1,0 +1,7 @@
+#!/bin/sh
+
+ssh router <<'ENDSSH'
+
+/etc/init.d/shadowsocks start
+
+ENDSSH

@@ -1,0 +1,10 @@
+{
+    "server":["[::0]","0.0.0.0"],
+    "server_port":1098,
+    "password":"killgfw",
+    "method":"chacha20-ietf-poly1305",
+    "ipv6_first":true,
+    "dns_ipv6":true,
+    "fast_open":true,
+    "timeout":600
+}

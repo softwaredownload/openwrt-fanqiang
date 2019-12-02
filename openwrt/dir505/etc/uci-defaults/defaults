@@ -1,0 +1,23 @@
+#!/bin/sh
+
+# Author: https://github.com/softwaredownload/openwrt-fanqiang
+# Date: 2015-12-24
+
+uci set dropbear.@dropbear[0].GatewayPorts='on'
+uci commit dropbear
+/etc/init.d/dropbear restart
+
+uci set system.@system[0].hostname='eastking' #设置主机名
+uci set system.@system[0].zonename='Asia/Shanghai'
+uci set system.@system[0].timezone='CST-8'
+uci commit system 
+/etc/init.d/system restart
+
+#change root password
+echo -e "fanqiang\nfanqiang" | (passwd $USER)  #修改路由器的管理员root对应的密码 11
+
+
+/etc/init.d/shadowsocks enable
+
+
+/etc/init.d/network restart

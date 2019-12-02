@@ -1,0 +1,40 @@
+# Put your custom commands here that should be executed once
+# the system init finished. By default this file does nothing.
+
+if [ ! -f /etc/config/backup/network ]; then 
+	cp /etc/config/network /etc/config/backup/
+	cp /etc/config/wireless /etc/config/backup/
+	cp /etc/config/firewall /etc/config/backup/
+	cp /etc/config/dhcp /etc/config/backup/
+fi
+
+
+read_gpio() {
+ (echo $1 > /sys/class/gpio/export) >& /dev/null
+ (echo "in" > /sys/class/gpio/gpio$1/direction) >& /dev/null
+ return `cat /sys/class/gpio/gpio$1/value`;
+}
+read_gpio 19;
+v=$?;
+read_gpio 20;
+v=$v$?;
+read_gpio 21;
+v=$v$?;
+read_gpio 22;
+v=$v$?;
+read_gpio 23;
+v=$v$?;
+case "$v" in
+ 10001) v="router";;
+ 11001) v="repeater";;
+ 01001) v="hotspot";;
+ 11000) v="ap";;
+ *) v="error";;
+esac
+
+/usr/bin/$v
+
+logger working mode: $v
+
+
+exit 0

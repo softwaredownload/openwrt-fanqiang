@@ -1,0 +1,8 @@
+#!/bin/sh
+
+ssh router <<'ENDSSH'
+
+sed -i -e 's@^\(\s*\)\(/.\+ss-firewall\)@\1#\2@g' -e 's@^\(\s*\)#\(/.\+ss-firewall-china$\)@\1\2@' /etc/init.d/shadowsocks
+/etc/init.d/shadowsocks restart
+
+ENDSSH

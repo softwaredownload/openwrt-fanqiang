@@ -1,0 +1,48 @@
+#!/bin/sh
+
+# Author: https://github.com/softwaredownload/openwrt-fanqiang
+# Date: 2015-12-24
+
+uci set network.wan.proto=pppoe
+uci set network.wan.username='wan-username'
+uci set network.wan.password='wan-password'
+uci set network.wan.peerdns=0
+uci commit network
+
+uci set wireless.@wifi-device[0].channel=1
+uci set wireless.@wifi-device[0].txpower=23
+uci set wireless.@wifi-device[0].disabled=0
+uci set wireless.@wifi-device[0].country=CN
+uci set wireless.@wifi-iface[0].mode=ap
+uci set wireless.@wifi-iface[0].ssid='eastking-tlwr2543''
+uci set wireless.@wifi-iface[0].encryption=psk2
+uci set wireless.@wifi-iface[0].key='icanfly9876'
+uci commit wireless
+wifi
+
+# for ssh log in with key only, disable password log in
+#uci set dropbear.@dropbear[0].Port=222
+#uci set dropbear.@dropbear[0].PasswordAuth=off
+#uci set dropbear.@dropbear[0].RootPasswordAuth=off
+#uci set dropbear.@dropbear[0].GatewayPorts=on
+
+# enable ssh
+uci set dropbear.@dropbear[0].GatewayPorts='on'
+uci commit dropbear
+/etc/init.d/dropbear restart
+
+uci set system.@system[0].hostname='eastking' #设置主机名
+uci set system.@system[0].zonename='Asia/Shanghai'
+uci set system.@system[0].timezone='CST-8'
+uci commit system 
+/etc/init.d/system restart
+
+#change root password
+echo -e "fanqiang\nfanqiang" | (passwd $USER)  #修改路由器的管理员root对应的密码 11
+
+
+/etc/init.d/shadowsocks enable
+
+#/etc/init.d/shadowsocks restart
+
+/etc/init.d/network restart
