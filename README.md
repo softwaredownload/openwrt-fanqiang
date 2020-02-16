@@ -34,7 +34,7 @@
 
 于是，花了许多天，查资料，写教程，调试固件，不知不觉一天就过去了
 
-希望你应用本教程后，也把你的过程写下来，合并到这个项目中来:  
+希望你应用本教程后，也把你的过程写下来，合并到这个项目中来:
 [https://github.com/softwaredownload/openwrt-fanqiang](https://github.com/softwaredownload/openwrt-fanqiang)
 
 Linux下如何编译OpenWrt shadowsocks自动翻墙固件
@@ -70,7 +70,7 @@ Linux下如何编译OpenWrt shadowsocks自动翻墙固件
 
 - shadowsocks 服务端保持默认值（除了server IP)
 - 路由器刷OpenWrt shadowsocks翻墙固件
-- 登录路由器修改server IP：  
+- 登录路由器修改server IP：
 
       # Modify 1.0.9.8 to your server IP address
       vi /etc/shadowsocks-libev/config.json
@@ -93,31 +93,30 @@ Linux下如何编译OpenWrt shadowsocks自动翻墙固件
 相关资源
 ------
 
-- Netgear WNDR4300 预编译翻墙固件，支持xchacha20-ietf-poly1305(2018-10-22):  
+- Netgear WNDR4300 预编译翻墙固件，支持xchacha20-ietf-poly1305(2018-10-22):
     [https://software-download.name/2015/netgear-wndr4300-openwrt-fanqiang-gujian/](https://software-download.name/2015/netgear-wndr4300-openwrt-fanqiang-gujian/)
 
-- shadowsocks-libev_3.2.0-1_mips_24kc.ipk, simple-obfs_0.0.5-3_mips_24kc.ipk (2018-10-22):  
+- shadowsocks-libev_3.2.0-1_mips_24kc.ipk, simple-obfs_0.0.5-3_mips_24kc.ipk (2018-10-22):
     [https://software-download.name/2014/shadowsocks-libev-polarssl-ar71xx-ipk-latest/](https://software-download.name/2014/shadowsocks-libev-polarssl-ar71xx-ipk-latest/)
 
-- 史上最详细的OpenWrt路由器翻墙教程下载 PDF epub (2018-10)  
+- 史上最详细的OpenWrt路由器翻墙教程下载 PDF epub (2018-10)
     [https://software-download.name/2014/fanqiang-jiaocheng/](https://software-download.name/2014/fanqiang-jiaocheng/)
 
-- Shadowsocks-libev Windows 客户端下载: ss-redir ss-tunnel obfs-local (2018-08 by cokebar)  
+- Shadowsocks-libev Windows 客户端下载: ss-redir ss-tunnel obfs-local (2018-08 by cokebar)
     [https://software-download.name/2018/shadowsocks-libev-windows-binary-download/](https://software-download.name/2018/shadowsocks-libev-windows-binary-download/)
 
-- D-Link DIR-505 预编译翻墙固件 (2018-10-22):  
+- D-Link DIR-505 预编译翻墙固件 (2018-10-22):
     [https://software-download.name/2014/dlink-dir-505-openwrt-fanqiang/](https://software-download.name/2014/dlink-dir-505-openwrt-fanqiang/)
 
-- TP-Link TLWR2543 预编译翻墙固件 (2018-10-22):  
+- TP-Link TLWR2543 预编译翻墙固件 (2018-10-22):
     [https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/](https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/)
 
-授权许可
---------
-
-除特别声明外，本书中的内容使用[CC BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/)（创作共用 署名-相同方式共享3.0许可协议）授权，代码遵循[BSD 3-Clause License](<https://github.com/softwaredownload/openwrt-fanqiang/blob/master/LICENSE>)（3项条款的BSD许可协议）。
 
 在线阅读史上最详细的科学上网教程
 ---------------------------
 
 - [https://fanqiang.software-download.name](https://fanqiang.software-download.name)
-- [https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md](https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md)
+
+----
+
+Thanks to [Best Software Download](https://software-download.name) for hosting the firmware
