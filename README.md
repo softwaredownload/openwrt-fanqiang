@@ -24,7 +24,7 @@
 
 查资料发现，著名的开源路由器固件OpenWrt支持家里的路由器 TP-Link WR2543N V1 ，于是就给路由器安装了OpenWrt并设置为自动智能翻墙
 
-再也没有打不开的网站了，自由的感觉真好:　youtube, twitter, facebook, google...
+再也没有打不开的网站了，自由的感觉真好:　YouTube, twitter, FaceBook, Google...
 
 什么是圣人，**圣人就是得到和付出比较均衡的人**：
 
@@ -112,7 +112,7 @@ Linux下如何编译OpenWrt shadowsocks自动翻墙固件
     [https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/](https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/)
 
 
-在线阅读史上最详细的科学上网教程
+[在线阅读](./SUMMARY.md)史上最详细的[科学上网教程](https://fanqiang.software-download.name)
 ---------------------------
 
 - [https://fanqiang.software-download.name](https://fanqiang.software-download.name)
