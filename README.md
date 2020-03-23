@@ -86,7 +86,7 @@ Linux下如何编译OpenWrt shadowsocks自动翻墙固件
 
 默认翻墙固件不支持IPv6
 
-有的软件如 Dropbox 桌面客户端默认连接到服务端 IPv6 地址，`ping dropbox.com` 出来的是IPv6 地址， 可能导致客户端连接服务器失败，浏览器导航到 www.Dropbox.com 连接被重置
+有的软件如 Dropbox 桌面客户端默认连接到服务端 IPv6 地址，`ping dropbox.com` 出来的是IPv6 地址， 可能导致客户端连接服务器失败，浏览器导航到 www.Dropbox.com 连接被重置 (可用 [Mega](https://mega.nz/aff=-iGudwBMHKw) 替代 Dropbox)
 
 解决办法：网络连接的属性，不要勾选 `Internet Protocol Version 6 (TCP/IPv6)`
 
@@ -119,4 +119,4 @@ Linux下如何编译OpenWrt shadowsocks自动翻墙固件
 
 ----
 
-Thanks to [Best Software Download](https://software-download.name) for hosting the firmware
+Thanks to [Video Converter Software Download](https://software-download.name) for hosting the firmware
