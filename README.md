@@ -16,6 +16,7 @@
 - 其他流量通过shadowsocks服务端转发
 - [路由器屏蔽国内外的广告](ebook/03.6.md)
 - [利用 Bash 一键切换翻墙模式](ebook/03.11.md)
+- [Digital Ocean 创建VPS教程](ebook/03.9.md)
 
 知识若不分享，实在没有意义
 -----------------------
@@ -112,7 +113,7 @@ Linux下如何编译OpenWrt shadowsocks自动翻墙固件
     [https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/](https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/)
 
 
-[在线阅读](./SUMMARY.md)史上最详细的[科学上网教程](https://fanqiang.software-download.name)
+在线阅读史上最详细的[科学上网教程](https://fanqiang.software-download.name)
 ---------------------------
 
 - [https://fanqiang.software-download.name](https://fanqiang.software-download.name)

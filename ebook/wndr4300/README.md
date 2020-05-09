@@ -37,7 +37,7 @@ WNDR4300有v1和v2的区别，目前国行都是v1版本
 参考信息
 --------
 
-https://openwrt.org/toh/netgear/wndr4300
+<https://openwrt.org/toh/netgear/wndr4300>
 - [Netgear WNDR4300 OpenWrt官网Wiki](https://openwrt.org/toh/netgear/wndr4300)
 - [Windows下Netgear WNDR4300刷OpenWrt固件PDF教程 by 书浅](https://software-download.name/2015/netgear-wndr4300-shua-openwrt/)
 - [预编译集成固件for WNDR4300](https://github.com/gygy/gygy.github.io)
