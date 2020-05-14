@@ -17,6 +17,7 @@
 - [路由器屏蔽国内外的广告](ebook/03.6.md)
 - [利用 Bash 一键切换翻墙模式](ebook/03.11.md)
 - [Android 安卓手机安装 shadowsocks 科学上网教程](ebook/03.10.md)
+- [预编译翻墙固件的设置和使用 (WNDR4300为例)](ebook/wndr4300/6.login-setup-netgear-wndr4300-fanqiang.md)
 - [Digital Ocean 创建VPS教程](ebook/03.9.md)
 
 知识若不分享，实在没有意义
@@ -67,22 +68,6 @@ Linux下如何编译OpenWrt shadowsocks自动翻墙固件
     root login password:        fanqiang
     WIFI password:              icanfly9876
 
-如何使用预编译翻墙固件：
----------------------
-
-- shadowsocks 服务端保持默认值（除了server IP)
-- 路由器刷OpenWrt shadowsocks翻墙固件
-- 登录路由器修改server IP：
-
-      # Modify 1.0.9.8 to your server IP address
-      vi /etc/shadowsocks-libev/config.json
-      # Modify 1.0.9.8 to your server IP address
-      vi /usr/bin/ss-firewall-asia
-      /etc/init.d/shadowsocks restart
-
-- 以上修改测试通过后，建议再修改 shadowsocks password, 路由器root password
-- 少数时候需要重启路由器才能使修改生效
-
 关于 IPv6
 ---------
 
@@ -117,7 +102,8 @@ Linux下如何编译OpenWrt shadowsocks自动翻墙固件
 在线阅读史上最详细的[科学上网教程](https://fanqiang.software-download.name)
 ---------------------------
 
-- [https://fanqiang.software-download.name](https://fanqiang.software-download.name)
+- <https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md>
+- <https://fanqiang.software-download.name>
 
 ----
 
