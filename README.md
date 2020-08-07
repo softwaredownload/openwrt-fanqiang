@@ -16,6 +16,7 @@
 - 其他流量通过shadowsocks服务端转发
 - [路由器屏蔽国内外的广告](ebook/03.6.md)
 - [利用 Bash 一键切换翻墙模式](ebook/03.11.md)
+- [Windows 电脑 Shadowsocks + Simple-obfs 科学上网教程](ebook/04.9.md)
 - [Android 安卓手机安装 shadowsocks 科学上网教程](ebook/03.10.md)
 - [预编译翻墙固件的设置和使用 (WNDR4300为例)](ebook/wndr4300/6.login-setup-netgear-wndr4300-fanqiang.md)
 - [Digital Ocean 创建VPS教程](ebook/03.9.md)
