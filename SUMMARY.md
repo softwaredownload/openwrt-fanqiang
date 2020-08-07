@@ -21,6 +21,7 @@
   * [shadowsocks simple-obfs 是什么意思，有什么用](./ebook/04.6.md)
   * [OpenWrt shadowsocks Simple-obfs 混淆教程](./ebook/04.7.md)
   * [Windows翻墙最好方法：shadowsocks-libev + simple-obfs + TFO教程](./ebook/04.8.md)
+  * [Windows shadowsocks 客户端配置 simple-obfs 翻墙](./ebook/04.9.md)
 * [无线路由器刷OpenWrt固件的准备工作](./ebook/01.0.md)
   * [什么是无线路由器固件](./ebook/01.1.md)
   * [支持刷OpenWrt路由器列表推荐](./ebook/01.2.md)
