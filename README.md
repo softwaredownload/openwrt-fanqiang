@@ -20,6 +20,8 @@
 - [Android 安卓手机安装 shadowsocks 科学上网教程](ebook/03.10.md)
 - [预编译翻墙固件的设置和使用 (WNDR4300为例)](ebook/wndr4300/6.login-setup-netgear-wndr4300-fanqiang.md)
 - [Digital Ocean 创建VPS教程](ebook/03.9.md)
+- [有哪些翻墙软件](ebook/09.1.md)
+- [翻墙失败的原因分析](ebook/03.7.md)
 
 知识若不分享，实在没有意义
 -----------------------
