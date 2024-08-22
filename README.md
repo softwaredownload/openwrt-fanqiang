@@ -10,6 +10,7 @@
 
 大道至简，一劳永逸！
 
+- [简单、高速、稳定的翻墙软件 overtls 安装、使用教程](ebook/05.4.md)
 - [建立国内重要网站白名单](https://github.com/softwaredownload/openwrt-fanqiang/blob/master/openwrt/default/etc/dnsmasq.d/accelerated-domains.china.conf)，在国内进行dns查询
 - [其他网站通过通过 shadowsocks 服务端进行dns查询](ebook/03.5.md)
 - 亚洲或国内的IP流量走国内通道
