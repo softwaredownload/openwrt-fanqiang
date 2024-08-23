@@ -18,7 +18,7 @@
   * [下载和设置翻墙配置文件](./ebook/04.2.md)
   * [使用Image Builder编译自动翻墙OpenWrt固件](./ebook/04.3.md)
   * [如何使用预编译的OpenWrt翻墙固件](./ebook/04.4.md)
-  * [Ubuntu 安装 shadowsocks Simple-obfs 插件客户端配置](./ebook/04.5.md)
+  * [Ubuntu 服务器安装 shadowsocks Simple-obfs 插件客户端配置](./ebook/04.5.md)
   * [shadowsocks simple-obfs 是什么意思，有什么用](./ebook/04.6.md)
   * [OpenWrt shadowsocks Simple-obfs 混淆教程](./ebook/04.7.md)
   * [Windows翻墙最好方法：shadowsocks-libev + simple-obfs + TFO教程](./ebook/04.8.md)
