@@ -111,4 +111,4 @@ Linux下如何编译OpenWrt shadowsocks自动翻墙固件
 
 ----
 
-Thanks to [Video Converter Software Download](https://software-download.name) for hosting the firmware
+Thanks to [Easy Software Download](https://software-download.name) for hosting the firmware
