@@ -1,6 +1,11 @@
 最好的 OpenWrt 路由器 shadowsocks 自动翻墙、科学上网教程
 ===========================================
 
+## 最新、最简洁的翻墙方法
+
+- [简单、高速、稳定的翻墙软件 overtls 安装、使用教程](ebook/05.4.md)
+- [overtls + tun2proxy 实现全局翻墙，所有流量走代理](ebook/05.42.md)
+
 手把手教你路由器刷OpenWrt固件，自动穿越万里长城
 
 本科学上网方案的特点
@@ -10,7 +15,6 @@
 
 大道至简，一劳永逸！
 
-- [简单、高速、稳定的翻墙软件 overtls 安装、使用教程](ebook/05.4.md)
 - [建立国内重要网站白名单](https://github.com/softwaredownload/openwrt-fanqiang/blob/master/openwrt/default/etc/dnsmasq.d/accelerated-domains.china.conf)，在国内进行dns查询
 - [其他网站通过通过 shadowsocks 服务端进行dns查询](ebook/03.5.md)
 - 亚洲或国内的IP流量走国内通道
