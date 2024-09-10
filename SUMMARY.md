@@ -58,6 +58,7 @@
 * [其他翻墙软件使用教程](./ebook/05.0.md)
   * [简单、高速、稳定的翻墙软件 overtls 安装、使用教程](./ebook/05.4.md)
     * [overtls + tun2proxy 实现全局翻墙，所有流量走代理](./ebook/05.42.md)
+    * [overtls Android 手机翻墙上网教程](./ebook/05.43.md)
   * [利用lantern 蓝灯实现浏览器自动翻墙](./ebook/05.1.md)
   * [加强翻墙上网的匿名性](./ebook/05.2.md)
   * [浏览器使用 DNS over HTTPS (DoH) 进行安全DNS](./ebook/05.3.md)
