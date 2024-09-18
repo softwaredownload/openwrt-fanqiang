@@ -1,5 +1,5 @@
 #!/bin/sh
 
 git add -A
-git commit -m "Update tutorial for overtls tun2proxy"
+git commit -m "Since version V0.2.34 rename overtls.exe to overtls-bin.exe"
 git push origin master
