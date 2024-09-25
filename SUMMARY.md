@@ -60,6 +60,7 @@
     * [overtls + tun2proxy 实现全局翻墙，所有流量走代理](./ebook/05.42.md)
     * [overtls Android 手机翻墙上网教程](./ebook/05.43.md)
     * [把 overtls、tun2proxy 设置成开机自动启动的系统服务](./ebook/05.44.md)
+    * [全能翻墙工具 sing-box + overtls 配置方法和使用教程](./ebook/05.45.md)
   * [利用lantern 蓝灯实现浏览器自动翻墙](./ebook/05.1.md)
   * [加强翻墙上网的匿名性](./ebook/05.2.md)
   * [浏览器使用 DNS over HTTPS (DoH) 进行安全DNS](./ebook/05.3.md)

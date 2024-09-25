@@ -5,6 +5,8 @@
 
 - [简单、高速、稳定的翻墙软件 overtls 安装、使用教程](ebook/05.4.md)
 - [overtls + tun2proxy 实现全局翻墙，所有流量走代理](ebook/05.42.md)
+- [全能翻墙工具 sing-box + overtls 配置方法和使用教程](ebook/05.45.md)
+
 
 手把手教你路由器刷OpenWrt固件，自动穿越万里长城
 
