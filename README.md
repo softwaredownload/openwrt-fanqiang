@@ -1,16 +1,17 @@
-最好的 OpenWrt 路由器 shadowsocks 自动翻墙、科学上网教程
-===========================================
+# 最好的翻墙软件使用教程：sing-box, overtls, OpenWrt
 
-## 最新、最简洁的翻墙方法
+* [简单、高速、稳定的翻墙软件 overtls 安装、使用教程](./ebook/05.4.md)
+  * [overtls + tun2proxy 实现全局翻墙，所有流量走代理](./ebook/05.42.md)
+  * [overtls Android 手机翻墙上网教程](./ebook/05.43.md)
+  * [把 overtls、tun2proxy 设置成开机自动启动的系统服务](./ebook/05.44.md)
+* [全能翻墙工具 sing-box + overtls 配置方法和使用教程](./ebook/05.45.md)
 
-- [简单、高速、稳定的翻墙软件 overtls 安装、使用教程](ebook/05.4.md)
-- [overtls + tun2proxy 实现全局翻墙，所有流量走代理](ebook/05.42.md)
+## 最好的 OpenWrt 路由器 shadowsocks 自动翻墙、科学上网教程
 
 
 手把手教你路由器刷OpenWrt固件，自动穿越万里长城
 
-本科学上网方案的特点
------------------
+### 本科学上网方案的特点
 
 放弃建立被墙网站黑名单的方案吧，被墙的网站每天在增加，黑名单永远无法完善
 
@@ -29,8 +30,7 @@
 - [有哪些翻墙软件](ebook/09.1.md)
 - [翻墙失败的原因分析](ebook/03.7.md)
 
-知识若不分享，实在没有意义
------------------------
+### 知识若不分享，实在没有意义
 
 2014年6月 Dropbox壮烈被墙
 
@@ -49,8 +49,7 @@
 希望你应用本教程后，也把你的过程写下来，合并到这个项目中来:
 [https://github.com/softwaredownload/openwrt-fanqiang](https://github.com/softwaredownload/openwrt-fanqiang)
 
-Linux下如何编译OpenWrt shadowsocks自动翻墙固件
--------------------------------------
+### Linux下如何编译OpenWrt shadowsocks自动翻墙固件
 
 - 首先把本项目clone到本地目录，如 ~/Downloads/openwrt-fanqiang
 - 原始配置文件
@@ -66,8 +65,7 @@ Linux下如何编译OpenWrt shadowsocks自动翻墙固件
   - openwrt-wndr4300/etc/uci-defaults/defaults
 - 编译自定义固件，设置FILES=~/Downloads/openwrt-wndr4300
 
-本项目规定的默认值
----------------
+### 本项目规定的默认值
 
     shadowsocks server:         1.0.9.8
     shadowsocks server_port:    1098
@@ -77,8 +75,7 @@ Linux下如何编译OpenWrt shadowsocks自动翻墙固件
     root login password:        fanqiang
     WIFI password:              icanfly9876
 
-关于 IPv6
----------
+### 关于 IPv6
 
 默认翻墙固件不支持IPv6
 
@@ -86,8 +83,7 @@ Linux下如何编译OpenWrt shadowsocks自动翻墙固件
 
 解决办法：网络连接的属性，不要勾选 `Internet Protocol Version 6 (TCP/IPv6)`
 
-相关资源
-------
+### 相关资源
 
 - Netgear WNDR4300 预编译翻墙固件，支持xchacha20-ietf-poly1305(2018-10-22):
     [https://software-download.name/2015/netgear-wndr4300-openwrt-fanqiang-gujian/](https://software-download.name/2015/netgear-wndr4300-openwrt-fanqiang-gujian/)
@@ -107,9 +103,9 @@ Linux下如何编译OpenWrt shadowsocks自动翻墙固件
 - TP-Link TLWR2543 预编译翻墙固件 (2018-10-22):
     [https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/](https://software-download.name/2014/openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade-bin-with-shadowsocks/)
 
+---
 
-在线阅读史上最详细的[科学上网教程](https://fanqiang.software-download.name)
----------------------------
+## 在线阅读史上最详细的[科学上网教程](https://fanqiang.software-download.name)
 
 - <https://github.com/softwaredownload/openwrt-fanqiang/blob/master/SUMMARY.md>
 - <https://fanqiang.software-download.name>
