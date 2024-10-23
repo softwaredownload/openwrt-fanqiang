@@ -1,13 +1,15 @@
-# 最好的翻墙软件使用教程：sing-box, overtls, OpenWrt
+# 最好的翻墙教程：sing-box, overtls, OpenWrt
 
 * [简单、高速、稳定的翻墙软件 overtls 安装、使用教程](./ebook/05.4.md)
   * [overtls + tun2proxy 实现全局翻墙，所有流量走代理](./ebook/05.42.md)
   * [overtls Android 手机翻墙上网教程](./ebook/05.43.md)
   * [把 overtls、tun2proxy 设置成开机自动启动的系统服务](./ebook/05.44.md)
-* [全能翻墙工具 sing-box + overtls 配置方法和使用教程](./ebook/05.45.md)
+  * [overtls 搭配 sing-box 翻墙的方法](./ebook/05.45.md)
+* [overtls + sing-box，分享一个比较完美的 sing-box 配置](./ebook/05.46.md)
+* [翻墙软件、教程大全集](./ebook/09.1.md)
+
 
 ## 最好的 OpenWrt 路由器 shadowsocks 自动翻墙、科学上网教程
-
 
 手把手教你路由器刷OpenWrt固件，自动穿越万里长城
 
